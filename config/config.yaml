@@ -1,0 +1,32 @@
+model:
+  in_dim: 1  # [t] only
+  out_dim: 2
+  width: 50
+  depth: 3
+  activation: tanh
+  initializer: glorot_uniform
+
+data:
+  T1a: 3.5       # Longitudinal relaxation rate of pool a (1/s)
+  T1b: 3.0       # Longitudinal relaxation rate of pool b (1/s)
+  k_ab: 1.0        # Exchange rate from pool a to pool b (1/s)
+  k_ba: 1.0        # Exchange rate from pool b to pool a (1/s)
+  M0a: 1.0         # Equilibrium magnetization of pool a
+  M0b: 0.0         # Equilibrium magnetization of pool b
+  t_max: 5.0        # Maximum time (s)
+  M0a_min: 0.95     # Minimum M0a for training range
+  M0a_max: 1.0     # Maximum M0a for training range
+  M0b_min: 0.0     # Minimum M0b for training range
+  M0b_max: 0.05     # Maximum M0b for training range
+
+training:
+  num_epochs: 20000
+  learning_rate: 0.001
+  lr_step_size: 1000
+  eval_interval: 100
+  n_ic: 2
+  n_test: 100
+  w_ode: 1.0
+  w_ic: 10.0
+  strategy: 'fixed'
+  batch_size: 35

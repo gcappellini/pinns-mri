@@ -1,0 +1,2 @@
+find a simple gt problem
+design and train pinn on it
