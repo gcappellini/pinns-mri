@@ -1,0 +1,56 @@
+work_id,title,authors,year,venue,source_dbs
+W00084,Fat–water MRI separation using deep complex convolution network,,2025,Magnetic Resonance Materials in Physics Biology and Medicine,Scopus
+W00085,"Input parameterized physics informed neural networks for de noising, super-resolution, and imaging artifact mitigation in time resolved three dimensional phase-contrast magnetic resonance imaging",,2025,Engineering Applications of Artificial Intelligence,Scopus
+W00086,Integrating finite element analysis and physics-informed neural networks for biomechanical modeling of the human lumbar spine,,2025,North American Spine Society Journal,Scopus
+W00087,PINN-DADif: Physics-informed deep adaptive diffusion network for robust and efficient MRI reconstruction,,2025,Digital Signal Processing A Review Journal,Scopus
+W00088,"Personalized predictions of Glioblastoma infiltration: Mathematical models, Physics-Informed Neural Networks and multimodal scans",,2025,Medical Image Analysis,Scopus
+W00089,Classifying Alzheimer's Disease Using a Finite Basis Physics Neural Network,,2025,Microscopy Research and Technique,Scopus
+W00090,Data-driven methods for quantitative imaging,,2025,Gamm Mitteilungen,Scopus
+W00091,Flow-Rate-Constrained Physics-Informed Neural Networks for Flow Field Error Correction in 4-D Flow Magnetic Resonance Imaging,,2025,IEEE Transactions on Medical Imaging,Scopus
+W00092,A physics-informed deep learning framework for dynamic susceptibility contrast perfusion MRI,,2024,Medical Physics,Scopus
+W00093,Enhanced parameter estimation in multiparametric arterial spin labeling using artificial neural networks,,2024,Magnetic Resonance in Medicine,Scopus
+W00094,SPINNED: Simulation-based physics-informed neural network for deconvolution of dynamic susceptibility contrast MRI perfusion data,,2024,Magnetic Resonance in Medicine,Scopus
+W00095,Physics-informed neural networks for parameter estimation in blood flow models,,2024,Computers in Biology and Medicine,Scopus
+W00096,Breast Cancer Screening Using Inverse Modeling of Surface Temperatures and Steady-State Thermal Imaging,,2024,Cancers,Scopus
+W00097,SWENet: A Physics-Informed Deep Neural Network (PINN) for Shear Wave Elastography,,2024,IEEE Transactions on Medical Imaging,Scopus
+W00098,Quantitative analysis of molecular transport in the extracellular space using physics-informed neural network,,2024,Computers in Biology and Medicine,Scopus
+W00099,Parameter Estimation in Brain Dynamics Models from Resting-State fMRI Data using Physics-Informed Neural Networks,,2024,Proceedings 2024 8th International Conference on Biomedical Engineering and Applications Icbea 2024,Scopus
+W00100,Neuromorphic Computing Network for Underwater Image Enhancement and Beyond,,2024,IEEE Transactions on Geoscience and Remote Sensing,Scopus
+W00101,Joint B0 and Image Reconstruction in Low-Field MRI by Physics-Informed Deep-Learning,,2024,IEEE Transactions on Biomedical Engineering,Scopus
+W00102,Magnetic Resonance Electrical Properties Tomography Based on Modified Physics- Informed Neural Network and Multiconstraints,,2024,IEEE Transactions on Medical Imaging,Scopus
+W00103,PIFON-EPT: MR-Based Electrical Property Tomography Using Physics-Informed Fourier Networks,,2024,IEEE Journal on Multiscale and Multiphysics Computational Techniques,Scopus
+W00104,Exploring the potential of Physics-Informed Neural Networks to extract vascularization data from DCE-MRI in the presence of diffusion,,2024,Medical Engineering and Physics,Scopus
+W00105,WarpPINN: Cine-MR image registration with physics-informed neural networks,,2023,Medical Image Analysis,Scopus
+W00106,"Improving microstructural integrity, interstitial fluid, and blood microcirculation images from multi-b-value diffusion MRI using physics-informed neural networks in cerebrovascular disease",,2023,Magnetic Resonance in Medicine,Scopus
+W00107,Physics-Based Decoding Improves Magnetic Resonance Fingerprinting,,2023,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,Scopus
+W00108,Physics-Informed Neural Networks for Tissue Elasticity Reconstruction in Magnetic Resonance Elastography,,2023,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,Scopus
+W00109,MRI-MECH: mechanics-informed MRI to estimate esophageal health,,2023,Frontiers in Physiology,Scopus
+W00110,Physics Informed Neural Networks (PINN) for Low Snr Magnetic Resonance Electrical Properties Tomography (MREPT),,2022,Diagnostics,Scopus
+W00111,Physics-informed neural networks for myocardial perfusion MRI quantification,,2022,Medical Image Analysis,Scopus
+W00112,Optimization with learning-informed differential equation constraints and its applications,,2022,ESAIM Control Optimisation and Calculus of Variations,Scopus
+W00113,Improved unsupervised physics-informed deep learning for intravoxel incoherent motion modeling and evaluation in pancreatic cancer patients,,2021,Magnetic Resonance in Medicine,Scopus
+W00114,Reconstruction of instantaneous flow fields from transient velocity snapshots using physics-informed neural networks: Applications to pulsatile blood flow behind a stenosis,,2026,arXiv,arXiv
+W00115,Error Bound Analysis of Physics-Informed Neural Networks-Driven T2 Quantification in Cardiac Magnetic Resonance Imaging,,2025,arXiv,arXiv
+W00116,QSMnet-INR: Single-Orientation Quantitative Susceptibility Mapping via Implicit Neural Representation in k-Space,,2025,arXiv,arXiv
+W00117,PINGS-X: Physics-Informed Normalized Gaussian Splatting with Axes Alignment for Efficient Super-Resolution of 4D Flow MRI,,2025,arXiv,arXiv
+W00118,WarpPINN-fibers: improved cardiac strain estimation from cine-MR with physics-informed neural networks,,2025,arXiv,arXiv
+W00119,Estimation of Hemodynamic Parameters via Physics Informed Neural Networks including Hematocrit Dependent Rheology,,2025,arXiv,arXiv
+W00120,Brightness-Invariant Tracking Estimation in Tagged MRI,,2025,arXiv,arXiv
+W00121,Enhanced Vascular Flow Simulations in Aortic Aneurysm via Physics-Informed Neural Networks and Deep Operator Networks,,2025,arXiv,arXiv
+W00122,PINNing Cerebral Blood Flow: Analysis of Perfusion MRI in Infants using Physics-Informed Neural Networks,,2024,arXiv,arXiv
+W00123,Physics-informed graph neural networks for flow field estimation in carotid arteries,,2024,arXiv,arXiv
+W00124,Understanding Auditory Evoked Brain Signal via Physics-informed Embedding Network with Multi-Task Transformer,,2024,arXiv,arXiv
+W00125,Quantitative Analysis of Molecular Transport in the Extracellular Space Using Physics-Informed Neural Network,,2024,arXiv,arXiv
+W00126,IVIM-Morph: Motion-compensated quantitative Intra-voxel Incoherent Motion (IVIM) analysis for functional fetal lung maturity assessment from diffusion-weighted MRI data,,2024,arXiv,arXiv
+W00127,Bloch Equation Enables Physics-informed Neural Network in Parametric Magnetic Resonance Imaging,,2023,arXiv,arXiv
+W00128,CS4ML: A general framework for active learning with arbitrary data based on Christoffel functions,,2023,arXiv,arXiv
+W00129,WarpPINN: Cine-MR image registration with physics-informed neural networks,,2022,arXiv,arXiv
+W00130,MRI-MECH: Mechanics-informed MRI to estimate esophageal health,,2022,arXiv,arXiv
+W00131,Investigating molecular transport in the human brain from MRI with physics-informed neural networks,,2022,arXiv,arXiv
+W00132,Learning Optimal K-space Acquisition and Reconstruction using Physics-Informed Neural Networks,,2022,arXiv,arXiv
+W00133,Physics-Driven Deep Learning for Computational Magnetic Resonance Imaging,,2022,arXiv,arXiv
+W00134,Training Adaptive Reconstruction Networks for Blind Inverse Problems,,2022,arXiv,arXiv
+W00135,Physics-informed neural networks for imaging and parameter retrieval of photonic nanostructures from near-field data,,2021,arXiv,arXiv
+W00136,Physics-informed neural networks for myocardial perfusion MRI quantification,,2020,arXiv,arXiv
+W00137,Physics-informed brain MRI segmentation,,2020,arXiv,arXiv
+W00138,Build-A-FLAIR: Synthetic T2-FLAIR Contrast Generation through Physics Informed Deep Learning,,2019,arXiv,arXiv
