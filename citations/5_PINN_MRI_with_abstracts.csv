@@ -464,6 +464,50 @@ PMCID: PMC9474534
 PMID: 36104360 [Indexed for MEDLINE]
 
 Conflict of interest statement: The authors declare no competing interests."
+W00013,Learning atrial fiber orientations and conductivity tensors from intracardiac maps using physics-informed neural networks,"Grandits T, Pezzuto S, Costabal FS, Perdikaris P, Pock T, Plank G, Krause R.",2021,journal,Funct Imaging Model Heart,,,10.1007/978-3-030-78710-3_62,35098259.0,,,PubMed,"1. Funct Imaging Model Heart. 2021 Jun 18;2021:650-658. doi: 
+10.1007/978-3-030-78710-3_62.
+
+Learning atrial fiber orientations and conductivity tensors from intracardiac 
+maps using physics-informed neural networks.
+
+Grandits T(1)(2), Pezzuto S(3), Costabal FS(4)(5)(6), Perdikaris P(7), Pock 
+T(1)(2), Plank G(2)(8), Krause R(3).
+
+Author information:
+(1)Institute of Computer Graphics and Vision, TU Graz, Graz, Austria.
+(2)BioTechMed-Graz, Graz, Austria.
+(3)Center for Computational Medicine in Cardiology, Institute of Computational 
+Science, Università della Svizzera italiana, Lugano, Switzerland.
+(4)Department of Mechanical and Metallurgical Engineering, School of 
+Engineering, Pontificia Universidad Católica de Chile, Santiago, Chile.
+(5)Institute for Biological and Medical Engineering, Schools of Engineering, 
+Medicine and Biological Sciences, Pontificia Universidad Católica de Chile, 
+Santiago, Chile.
+(6)Millennium Nucleus for Cardiovascular Magnetic Resonance.
+(7)Department of Mechanical Engineering and Applied Mechanics University of 
+Pennsylvania, Philadelphia, Pennsylvania, USA.
+(8)Gottfried Schatz Research Center - Division of Biophysics, Medical University 
+of Graz, Graz, Austria.
+
+Electroanatomical maps are a key tool in the diagnosis and treatment of atrial 
+fibrillation. Current approaches focus on the activation times recorded. 
+However, more information can be extracted from the available data. The fibers 
+in cardiac tissue conduct the electrical wave faster, and their direction could 
+be inferred from activation times. In this work, we employ a recently developed 
+approach, called physics informed neural networks, to learn the fiber 
+orientations from electroanatomical maps, taking into account the physics of the 
+electrical wave propagation. In particular, we train the neural network to 
+weakly satisfy the anisotropic eikonal equation and to predict the measured 
+activation times. We use a local basis for the anisotropic conductivity tensor, 
+which encodes the fiber orientation. The methodology is tested both in a 
+synthetic example and for patient data. Our approach shows good agreement in 
+both cases and it outperforms a state of the art method in the patient data. The 
+results show a first step towards learning the fiber orientations from 
+electroanatomical maps with physics-informed neural networks.
+
+DOI: 10.1007/978-3-030-78710-3_62
+PMCID: PMC7612271
+PMID: 35098259"
 W00014,Exploring the potential of Physics-Informed Neural Networks to extract vascularization data from DCE-MRI in the presence of diffusion,"Sainz-DeMena D, Pérez MA, García-Aznar JM.",2024,journal,Med Eng Phys,,,10.1016/j.medengphy.2023.104092,38365330.0,,,PubMed,"1. Med Eng Phys. 2024 Jan;123:104092. doi: 10.1016/j.medengphy.2023.104092. Epub 
 2023 Dec 21.
 
@@ -602,6 +646,40 @@ with the previous methods including those based on supervised learning.
 
 DOI: 10.1002/mrm.30095
 PMID: 38623911 [Indexed for MEDLINE]"
+W00017,SWENet: A Physics-Informed Deep Neural Network (PINN) for Shear Wave Elastography,"Yin Z, Li GY, Zhang Z, Zheng Y, Cao Y.",2024,journal,IEEE Trans Med Imaging,,,10.1109/tmi.2023.3338178,38032772.0,,,PubMed,"1. IEEE Trans Med Imaging. 2024 Apr;43(4):1434-1448. doi:
+10.1109/TMI.2023.3338178.  Epub 2024 Apr 3.
+
+SWENet: A Physics-Informed Deep Neural Network (PINN) for Shear Wave 
+Elastography.
+
+Yin Z, Li GY, Zhang Z, Zheng Y, Cao Y.
+
+Shear wave elastography (SWE) enables the measurement of elastic properties of 
+soft materials in a non-invasive manner and finds broad applications in various 
+disciplines. The state-of-the-art SWE methods rely on the measurement of local 
+shear wave speeds to infer material parameters and suffer from wave diffraction 
+when applied to soft materials with strong heterogeneity. In the present study, 
+we overcome this challenge by proposing a physics-informed neural network 
+(PINN)-based SWE (SWENet) method. The spatial variation of elastic properties of 
+inhomogeneous materials has been introduced in the governing equations, which 
+are encoded in SWENet as loss functions. Snapshots of wave motions have been 
+used to train neural networks, and during this course, the elastic properties 
+within a region of interest illuminated by shear waves are inferred 
+simultaneously. We performed finite element simulations, tissue-mimicking 
+phantom experiments, and ex vivo experiments to validate the method. Our results 
+show that the shear moduli of soft composites consisting of matrix and 
+inclusions of several millimeters in cross-section dimensions with either 
+regular or irregular geometries can be identified with excellent accuracy. The 
+advantages of the SWENet over conventional SWE methods consist of using more 
+features of the wave motions and enabling seamless integration of multi-source 
+data in the inverse analysis. Given the advantages of SWENet, it may find broad 
+applications where full wave fields get involved to infer heterogeneous 
+mechanical properties, such as identifying small solid tumors with ultrasound 
+SWE, and differentiating gray and white matters of the brain with magnetic 
+resonance elastography.
+
+DOI: 10.1109/TMI.2023.3338178
+PMID: 38032772 [Indexed for MEDLINE]"
 W00018,PIFON-EPT: MR-Based Electrical Property Tomography Using Physics-Informed Fourier Networks,"Yu X, Serrallés JEC, Giannakopoulos II, Liu Z, Daniel L, Lattanzi R, Zhang Z.",2024,journal,IEEE J Multiscale Multiphys Comput Tech,,,10.1109/jmmct.2023.3345798,39463749.0,,,PubMed,"1. IEEE J Multiscale Multiphys Comput Tech. 2024;9:49-60. doi: 
 10.1109/jmmct.2023.3345798. Epub 2023 Dec 22.
 
@@ -1602,6 +1680,77 @@ related to this study. AP has received honorary as consultant and Advisory Board
 for Genzyme and Amicus Ther. S.R. has received honorary as consultant and 
 Advisory Board for Genzyme, Amicus Ther and Astellas. FS is a consultant for 
 Roche."
+W00035,Quantitative Analysis of DCE and DSC-MRI: From Kinetic Modeling to Deep Learning,"Rotkopf LT, Zhang KS, Tavakoli AA, Bonekamp D, Ziener CH, Schlemmer HP.",2022,journal,Rofo,,,10.1055/a-1762-5854,35211930.0,,,PubMed,"1. Rofo. 2022 Sep;194(9):975-982. doi: 10.1055/a-1762-5854. Epub 2022 Feb 24.
+
+Quantitative Analysis of DCE and DSC-MRI: From Kinetic Modeling to Deep 
+Learning.
+
+[Article in English]
+
+Rotkopf LT(1), Zhang KS(1), Tavakoli AA(1), Bonekamp D(1), Ziener CH(1), 
+Schlemmer HP(1).
+
+Author information:
+(1)Department of Radiology, German Cancer Research Centre, Heidelberg, Germany.
+
+BACKGROUND: Perfusion MRI is a well-established imaging modality with a 
+multitude of applications in oncological and cardiovascular imaging. Clinically 
+used processing methods, while stable and robust, have remained largely 
+unchanged in recent years. Despite promising results from novel methods, their 
+relatively minimal improvement compared to established methods did not generally 
+warrant significant changes to clinical perfusion processing.
+RESULTS AND CONCLUSION: Machine learning in general and deep learning in 
+particular, which are currently revolutionizing computer-aided diagnosis, may 
+carry the potential to change this situation and truly capture the potential of 
+perfusion imaging. Recent advances in the training of recurrent neural networks 
+make it possible to predict and classify time series data with high accuracy. 
+Combining physics-based tissue models and deep learning, using either 
+physics-informed neural networks or universal differential equations, simplifies 
+the training process and increases the interpretability of the resulting models. 
+Due to their versatility, these methods will potentially be useful in bridging 
+the gap between microvascular architecture and perfusion parameters, akin to MR 
+fingerprinting in structural MR imaging. Still, further research is urgently 
+needed before these methods may be used in clinical practice.
+KEY POINTS: · Machine learning offers promising methods for processing of 
+perfusion data.. · Recurrent neural networks can classify time series with high 
+accuracy.. · Data augmentation is essentially especially when using small 
+datasets..
+CITATION FORMAT: · Rotkopf LT, Zhang KS, Tavakoli AA et al. Quantitative 
+Analysis of DCE and DSC-MRI: From Kinetic Modeling to Deep Learning. Fortschr 
+Röntgenstr 2022; 194: 975 - 982.
+
+Publisher: HINTERGRUND: Das Perfusions-MRT stellt eine etablierte 
+Bildgebungsmodalität mit einer Vielzahl von Anwendungen in der onkologischen, 
+neurovaskulären oder kardiovaskulären Bildgebung dar. Die mittlerweile klinisch 
+etablierten quantitativen Auswertemethoden haben sich in den letzten Jahren 
+jedoch wenig geändert. Dies liegt vorrangig an den geringen Verbesserungen, die 
+durch neue Verfahren erzielt werden konnten.
+ERGEBNISSE UND SCHLUSSFOLGERUNG: Machine Learning und Deep Learning, die derzeit 
+den state of the art der computergestützten Diagnoseverfahren darstellen, haben 
+das Potenzial die vielfältige Information, die in perfusionsgestützter 
+Bildgebung akquiriert wird, vollständig besser als bisher zu erfassen und zu 
+nutzen. Rekurrente neuronale Netze können nach entsprechendem Training 
+Zeitserien mit hoher Genauigkeit vorhersagen und klassifizieren. Speziell die 
+Kombination aus mikrostrukturellen Gewebsmodellen und Deep Learning mittels 
+physics-informed neural networks oder universal differential equations 
+vereinfacht kann das das Training der Modelle vereinfachen und die 
+Interpretabilität verbessern. Aufgrund ihrer vielseitigen Anwendbarkeit ist es 
+möglich, dass diese Methoden in der Lage sein werden, das Wechselspiel zwischen 
+der mikrovaskulären Architektur und Perfusionsparametern besser zu modellieren. 
+Weitere Forschung in diesem Gebiet ist dringend notwendig, um diese Methoden für 
+die klinische Arbeit einsatzfähig zu machen.
+KERNAUSSAGEN: · Machine Learning-Methoden bieten vielversprechende Möglichkeiten 
+zur Auswertung von Perfusionsdaten.. · Rekurrente neuronale Netze können 
+Zeitserien mit hoher Genauigkeit klassifizieren.. · Data augmentation ist 
+besonders bei kleinen Datensätzen essentiell..
+
+Thieme. All rights reserved.
+
+DOI: 10.1055/a-1762-5854
+PMID: 35211930 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that they have no conflict 
+of interest."
 W00036,Improved unsupervised physics-informed deep learning for intravoxel incoherent motion modeling and evaluation in pancreatic cancer patients,"Kaandorp MPT, Barbieri S, Klaassen R, van Laarhoven HWM, Crezee H, While PT, Nederveen AJ, Gurney-Champion OJ.",2021,journal,Magn Reson Med,,,10.1002/mrm.28852,34105184.0,,,PubMed,"1. Magn Reson Med. 2021 Oct;86(4):2250-2265. doi: 10.1002/mrm.28852. Epub 2021
 Jun  9.
 
@@ -2260,6 +2409,43 @@ employment. Kai Wang reports a relationship with United Imaging Healthcare Co.,
 Ltd. that includes: employment. If there are other authors, they declare that 
 they have no known competing financial interests or personal relationships that 
 could have appeared to influence the work reported in this paper."
+W00048,MR-AIV reveals in vivo brain-wide fluid flow with physics-informed AI,"Toscano JD, Guo Y, Wang Z, Vaezi M, Mori Y, Karniadakis GE, Boster KAS, Kelley DH.",2025,journal,bioRxiv,,,10.1101/2025.07.30.667741,40766422.0,,,PubMed,"1. bioRxiv [Preprint]. 2025 Aug 1:2025.07.30.667741. doi: 
+10.1101/2025.07.30.667741.
+
+MR-AIV reveals in vivo brain-wide fluid flow with physics-informed AI.
+
+Toscano JD(1), Guo Y(2), Wang Z(3), Vaezi M(2), Mori Y(4), Karniadakis GE(1), 
+Boster KAS(3), Kelley DH(2).
+
+Author information:
+(1)Division of Applied Mathematics, Brown University, Providence, 02912, RI, 
+USA.
+(2)Department of Mechanical Engineering, University of Rochester, Rochester, 
+14627, NY, USA.
+(3)School of Engineering, Brown University, Providence, 02912, RI, USA.
+(4)Center for Translational Neuromedicine, University of Copenhagen, Copenhagen, 
+2200, Denmark.
+
+The circulation of cerebrospinal and interstitial fluid plays a vital role in 
+clearing metabolic waste from the brain, and its disruption has been linked to 
+neurological disorders. However, directly measuring brain-wide fluid 
+transport-especially in the deep brain-has remained elusive. Here, we introduce 
+magnetic resonance artificial intelligence velocimetry (MR-AIV), a framework 
+featuring a specialized physics-informed architecture and optimization method 
+that reconstructs three-dimensional fluid velocity fields from dynamic 
+contrast-enhanced magnetic resonance imaging (DCE-MRI). MR-AIV unveils 
+brain-wide velocity maps while providing estimates of tissue permeability and 
+pressure fields-quantities inaccessible to other methods. Applied to the brain, 
+MR-AIV reveals a functional landscape of interstitial and perivascular flow, 
+quantitatively distinguishing slow diffusion-driven transport (~0.1 μm/s) from 
+rapid advective flow (~3 μm/s). This approach enables new investigations into 
+brain clearance mechanisms and fluid dynamics in health and disease, with broad 
+potential applications to other porous media systems, from geophysics to tissue 
+mechanics.
+
+DOI: 10.1101/2025.07.30.667741
+PMCID: PMC12324545
+PMID: 40766422"
 W00049,One for multiple: Physics-informed synthetic data boosts generalizable deep learning for fast MRI reconstruction,"Wang Z, Yu X, Wang C, Chen W, Wang J, Chu YH, Sun H, Li R, Li P, Yang F, Han H, Kang T, Lin J, Yang C, Chang S, Shi Z, Hua S, Li Y, Hu J, Zhu L, Zhou J, Lin M, Guo J, Cai C, Chen Z, Guo D, Yang G, Qu X.",2025,journal,Med Image Anal,,,10.1016/j.media.2025.103616,40279827.0,,,PubMed,"1. Med Image Anal. 2025 Jul;103:103616. doi: 10.1016/j.media.2025.103616. Epub
 2025  Apr 20.
 
@@ -2360,6 +2546,77 @@ Conflict of interest statement: Declaration of competing interest The authors
 declare that they have no known competing financial interests or personal 
 relationships that could have appeared to influence the work reported in this 
 paper."
+W00050,Brightness-Invariant Tracking Estimation in Tagged MRI,"Bian Z, Wei S, Liang X, Lu YC, Remedios SW, Xing F, Woo J, Pham DL, Carass A, Bayly PV, Zhuo J, Alshareef A, Prince JL.",2026,journal,Inf Process Med Imaging,,,10.1007/978-3-031-96625-5_25,41438683.0,,,PubMed,"1. Inf Process Med Imaging. 2026;15830:375-389. doi:
+10.1007/978-3-031-96625-5_25.  Epub 2025 Aug 7.
+
+Brightness-Invariant Tracking Estimation in Tagged MRI.
+
+Bian Z(1), Wei S(1), Liang X(2), Lu YC(3)(4), Remedios SW(1), Xing F(5), Woo 
+J(5), Pham DL(1)(3), Carass A(1), Bayly PV(6), Zhuo J(2), Alshareef A(7), Prince 
+JL(1).
+
+Author information:
+(1)Johns Hopkins University, Baltimore, MD, USA.
+(2)University of Maryland School of Medicine, Baltimore, MD, USA.
+(3)Uniformed Services University of the Health Sciences, Bethesda, MD, USA.
+(4)The Henry M. Jackson Foundation for the Advancement of Military Medicine, 
+Inc., Bethesda, MD, USA.
+(5)Massachusetts General Hospital and Harvard Medical School, Boston, MA, USA.
+(6)Washington University, St. Louis, MO, USA.
+(7)University of South Carolina, Columbia, SC, USA.
+
+Magnetic resonance (MR) tagging is an imaging technique for noninvasively 
+tracking tissue motion in vivo by creating a visible pattern of magnetization 
+saturation (tags) that deforms with the tissue. Due to longitudinal relaxation 
+and progression to steady-state, the tags and tissue brightnesses change over 
+time, which makes tracking with optical flow methods error-prone. Although 
+Fourier methods can alleviate these problems, they are also sensitive to 
+brightness changes as well as spectral spreading due to motion. To address these 
+problems, we introduce the brightness-invariant tracking estimation (BRITE) 
+technique for tagged MRI. BRITE disentangles the anatomy from the tag pattern in 
+the observed tagged image sequence and simultaneously estimates the Lagrangian 
+motion. The inherent ill-posedness of this problem is addressed by leveraging 
+the expressive power of denoising diffusion probabilistic models to represent 
+the probabilistic distribution of the underlying anatomy and the flexibility of 
+physics-informed neural networks to estimate biologically-plausible motion. A 
+set of tagged MR images of a gel phantom was acquired with various tag periods 
+and imaging flip angles to demonstrate the impact of brightness variations and 
+to validate our method. The results show that BRITE achieves more accurate 
+motion and strain estimates as compared to other state of the art methods, while 
+also being resistant to tag fading.
+
+DOI: 10.1007/978-3-031-96625-5_25
+PMCID: PMC12720491
+PMID: 41438683"
+W00051,Investigating Multiple Physical Priors in Deep Learning for Electrical Properties Reconstruction in MREPT,"Zheng M, Zhang X.",2025,journal,Annu Int Conf IEEE Eng Med Biol Soc,,,10.1109/embc58623.2025.11254469,41335751.0,,,PubMed,"1. Annu Int Conf IEEE Eng Med Biol Soc. 2025 Jul;2025:1-4. doi: 
+10.1109/EMBC58623.2025.11254469.
+
+Investigating Multiple Physical Priors in Deep Learning for Electrical 
+Properties Reconstruction in MREPT.
+
+Zheng M, Zhang X.
+
+Magnetic Resonance Electrical Properties Tomography (MREPT) is a valuable 
+imaging modality for non-invasive, in-vivo mapping of conductivity and 
+permittivity. While deep learning (DL) based MREPT methods help mitigate the 
+sensitivity and artifact issues of traditional approaches, their reliability and 
+generalization remain significant challenges, limiting clinical applicability. 
+To address these issues, this study integrates physics-informed constraints into 
+network training, incorporating gradient similarity, Helmholtz equation 
+constraints, complex arithmetic operations, and prior knowledge of curl and 
+Laplacian operators. A quantitative analysis of different physical priors is 
+conducted to assess their impact on reconstruction accuracy and model 
+generalization. The proposed physics-informed deep learning framework 
+demonstrates improved generalization and predictive accuracy, achieving 
+promising results in real human head EP reconstruction. These findings suggest 
+that multi-physical constraint can enhance the robustness of DL-based MREPT, 
+paving the way for future clinical applications.Clinical Relevance- This study 
+improves the accuracy and reliability of deep learning-based MREPT, enhancing 
+its potential for non-invasive brain conductivity and permittivity mapping in 
+clinical applications.
+
+DOI: 10.1109/EMBC58623.2025.11254469
+PMID: 41335751 [Indexed for MEDLINE]"
 W00052,ElasticMorph: Plug-and-play second-order elastic regularization for medical image registration,"Lin Z, Jiang S, Zhou Z, Yang Z, Li Y.",2026,journal,Comput Methods Programs Biomed,,,10.1016/j.cmpb.2025.109182,41330093.0,,,PubMed,"1. Comput Methods Programs Biomed. 2026 Feb;275:109182. doi: 
 10.1016/j.cmpb.2025.109182. Epub 2025 Nov 27.
 
@@ -2584,6 +2841,18 @@ The model achieved an accuracy of 94.30% in predicting material properties such 
 Conclusions
 The integration of FEA and PINNs allows for accurate, automated prediction of material properties and mechanical behaviors of the lumbar spine, significantly reducing manual input and enhancing reliability. This approach ensures dependable biomechanical simulations and supports the development of personalized treatment plans and surgical strategies, ultimately improving clinical outcomes for spinal disorders. This method improves surgical planning and outcomes, contributing to better patient care and recovery in spinal disorders."
 W00087,PINN-DADif: Physics-informed deep adaptive diffusion network for robust and efficient MRI reconstruction,,2025,journal,Digital Signal Processing A Review Journal,160,,10.1016/j.dsp.2025.105085,,,,Scopus,"Magnetic Resonance Imaging (MRI) is essential for high-resolution soft-tissue imaging but suffers from long acquisition times, limiting its clinical efficiency. Accelerating MRI through undersampling k-space data leads to ill-posed inverse problems, introducing noise and artifacts that degrade image quality. Conventional deep learning models, including conditional and unconditional approaches, often face challenges in generalization, particularly with variations in imaging operators or domain shifts. In this study, we propose PINN-DADif, a Physics-Informed Neural Network integrated with deep adaptive diffusion priors, to address these challenges in MRI reconstruction. PINN-DADif employs a two-phase inference strategy: an initial rapid-diffusion phase for fast preliminary reconstructions, followed by an adaptive phase where the diffusion prior is refined to ensure consistency with MRI physics and data fidelity. The inclusion of physics-based regularization through PINNs enhances the model's adherence to k-space constraints and gradient smoothness, leading to more accurate reconstructions. This adaptive approach reduces the number of iterations required compared to traditional diffusion models, improving both speed and image quality. We validated PINN-DADif on a private MRI dataset and the public fastMRI dataset, where it outperformed state-of-the-art methods. The model achieved PSNR values of 41.2, 39.5, and 41.5, and SSIM values of 98.7, 98.0, and 98.5 for T1, T2, and Proton Density-weighted images at R = 4x on the private dataset. Similar high performance was observed on the fastMRI dataset, even in scenarios involving domain shifts. PINN-DADif marks a significant advancement in MRI reconstruction by providing an efficient, adaptive, and physics-informed solution."
+W00095,Physics-informed neural networks for parameter estimation in blood flow models,,2024,journal,Computers in Biology and Medicine,178,,10.1016/j.compbiomed.2024.108031,,,,Scopus,"Background:
+Physics-informed neural networks (PINNs) have emerged as a powerful tool for solving inverse problems, especially in cases where no complete information about the system is known and scatter measurements are available. This is especially useful in hemodynamics since the boundary information is often difficult to model, and high-quality blood flow measurements are generally hard to obtain.
+Methods:
+In this work, we use the PINNs methodology for estimating reduced-order model parameters and the full velocity field from scatter 2D noisy measurements in the aorta. Two different flow regimes, stationary and transient were studied.
+Results:
+We show robust and relatively accurate parameter estimations when using the method with simulated data, while the velocity reconstruction accuracy shows dependence on the measurement quality and the flow pattern complexity. Comparison with a Kalman filter approach shows similar results when the number of parameters to be estimated is low to medium. For a higher number of parameters, only PINNs were capable of achieving good results.
+Conclusion:
+The method opens a door to deep-learning-driven methods in the simulations of complex coupled physical systems."
+W00096,Breast Cancer Screening Using Inverse Modeling of Surface Temperatures and Steady-State Thermal Imaging,,2024,journal,Cancers,16,12.0,10.3390/cancers16122264,,,,Scopus,"<jats:p>Cancer is characterized by increased metabolic activity and vascularity, leading to temperature changes in cancerous tissues compared to normal cells. This study focused on patients with abnormal mammogram findings or a clinical suspicion of breast cancer, exclusively those confirmed by biopsy. Utilizing an ultra-high sensitivity thermal camera and prone patient positioning, we measured surface temperatures integrated with an inverse modeling technique based on heat transfer principles to predict malignant breast lesions. Involving 25 breast tumors, our technique accurately predicted all tumors, with maximum errors below 5 mm in size and less than 1 cm in tumor location. Predictive efficacy was unaffected by tumor size, location, or breast density, with no aberrant predictions in the contralateral normal breast. Infrared temperature profiles and inverse modeling using both techniques successfully predicted breast cancer, highlighting its potential in breast cancer screening.</jats:p>"
+W00100,Neuromorphic Computing Network for Underwater Image Enhancement and Beyond,,2024,journal,IEEE Transactions on Geoscience and Remote Sensing,62,,10.1109/TGRS.2024.3473020,,,,Scopus,"Optical remote sensing serves as a critical technology for exploring underwater environments. However, light absorption and scattering underwater significantly degrade underwater optical images, affecting the extraction and analysis of information. Underwater image enhancement (UIE) methods aim to eliminate this degradation and improve the visual quality of images. Nonetheless, the complex and dynamic underwater imaging environment, limited computing resources, and scarce training data/data pairs restrict the practical application of existing methods. To solve these problems, we propose an UIE network (UIEN) based on neuromorphic computing, which simulates the pathway of the visual system to perceive and process light information, and can use a lightweight network structure to achieve good performance through unsupervised learning. Specifically, we propose a visual perception module comprising a 2-D Duffing oscillator (2D-DO) with pixel-wise potential barrier parameters. This module can generate the stochastic resonance (SR) phenomenon to enhance the degraded image. Inspired by physics-informed learning, a dual-path neural network is employed to estimate the potential barrier parameters and solve the partial differential equation (PDE) that describes the visual perception module. Subsequently, we introduce three nonreference (NR) losses to guide the network training and improve the enhanced image’s visual quality. Extensive experiments demonstrate that the proposed method can achieve outstanding performance with less computing resource cost compared to state-of-the-art (SOTA) methods. Furthermore, we examine the generalization and versatility of the proposed method to establish its reliability across various degradation types and tasks in practical applications of optical remote sensing."
+W00101,Joint B0 and Image Reconstruction in Low-Field MRI by Physics-Informed Deep-Learning,,2024,journal,IEEE Transactions on Biomedical Engineering,71,10.0,10.1109/TBME.2023.3323081,,,,Scopus,"Objective: We present a model-based image reconstruction approach based on unrolled neural networks which corrects for image distortion and noise in low-field (B0∼ 50 mT) MRI. Methods: Utilising knowledge about the underlying physics, a novel network architecture (SH-Net) is introduced which involves the estimation of spherical harmonic coefficients to guarantee a spatially smooth field map estimate. The SH-Net is integrated in an end-to-end trainable model which jointly estimates the B0-field map as well as the image. Experiments were conducted on retrospectively simulated low-field data of human knees. Results: We compare our model to different model-based approaches at distinct noise levels and various B0-field distributions. Our results show that our physics-informed neural network approach outperforms the purely model-based methods by improving the PSNR up to 11.7% and the RMSE up to 86.3%. Conclusion: Our end-to-end trained model-based approach outperforms existing methods in reconstructing image and B0-field maps in the low-field regime. Significance: low-field MRI is becoming increasingly more popular as it enables access to MR in challenging situations such as intensive care units or resource poor areas. Our method allows for fast and accurate image reconstruction in such low-field imaging with B0-inhomogeneity compensation under a wide range of various environmental conditions."
 W00109,MRI-MECH: mechanics-informed MRI to estimate esophageal health,,2023,journal,Frontiers in Physiology,14,,10.3389/fphys.2023.1195067,,,,Scopus,"Dynamic magnetic resonance imaging (MRI) is a popular medical imaging technique that generates image sequences of the flow of a contrast material inside tissues and organs. However, its application to imaging bolus movement through the esophagus has only been demonstrated in few feasibility studies and is relatively unexplored. In this work, we present a computational framework called mechanics-informed MRI (MRI-MECH) that enhances that capability, thereby increasing the applicability of dynamic MRI for diagnosing esophageal disorders. Pineapple juice was used as the swallowed contrast material for the dynamic MRI, and the MRI image sequence was used as input to the MRI-MECH. The MRI-MECH modeled the esophagus as a flexible one-dimensional tube, and the elastic tube walls followed a linear tube law. Flow through the esophagus was governed by one-dimensional mass and momentum conservation equations. These equations were solved using a physics-informed neural network. The physics-informed neural network minimized the difference between the measurements from the MRI and model predictions and ensured that the physics of the fluid flow problem was always followed. MRI-MECH calculated the fluid velocity and pressure during esophageal transit and estimated the mechanical health of the esophagus by calculating wall stiffness and active relaxation. Additionally, MRI-MECH predicted missing information about the lower esophageal sphincter during the emptying process, demonstrating its applicability to scenarios with missing data or poor image resolution. In addition to potentially improving clinical decisions based on quantitative estimates of the mechanical health of the esophagus, MRI-MECH can also be adapted for application to other medical imaging modalities to enhance their functionality.
 Keywords: MRI; active relaxation; computational fluid dynamics; deep learning; esophageal wall properties; esophagus; lower esophageal sphincter; physics-informed neural network."
 W00110,Physics Informed Neural Networks (PINN) for Low Snr Magnetic Resonance Electrical Properties Tomography (MREPT),,2022,journal,Diagnostics,12,11.0,10.3390/diagnostics12112627,,,,Scopus,"Electrical properties (EPs) of tissues facilitate early detection of cancerous tissues. Magnetic resonance electrical properties tomography (MREPT) is a technique to non-invasively probe the EPs of tissues from MRI measurements. Most MREPT methods rely on numerical differentiation (ND) to solve partial differential Equations (PDEs) to reconstruct the EPs. However, they are not practical for clinical data because ND is noise sensitive and the MRI measurements for MREPT are noisy in nature. Recently, Physics informed neural networks (PINNs) have been introduced to solve PDEs by substituting ND with automatic differentiation (AD). To the best of our knowledge, it has not been applied to MREPT due to the challenges in using PINN on MREPT as (i) a PINN requires part of ground-truth EPs as collocation points to optimize the network’s AD, (ii) the noisy input data disrupts the optimization of PINNs despite the noise-filtering nature of NNs and additional denoising processes. In this work, we propose a PINN-MREPT model based on a canonical analytic MREPT model. A reference padding layer with known EPs was added to surround the region of interest for providing additive collocation points. Moreover, an optimizable diffusion coefficient was embedded in the analytic MREPT model used in the PINN-MREPT. The noise robustness of the proposed PINN-MREPT for single-sample reconstruction was tested by using numerical phantoms of human brain with extra tumor-like tissues at different noise levels. The results of numerical experiments show that PINN-MREPT outperforms two typical numerical MREPT methods in terms of reconstruction accuracy, sensitivity to the extra tissues, and the correlations of line profiles in the regions of interest. The advantage of the PINN-MREPT is shown by the results of an experiment on phantom measurement, too. Moreover, it is found that the diffusion term plays an important role to achieve a noise-robust PINN-MREPT. This is an important step moving forward to a clinical application of MREPT."
+W00112,Optimization with learning-informed differential equation constraints and its applications,,2022,journal,ESAIM Control Optimisation and Calculus of Variations,28,,10.1051/cocv/2022026,,,,Scopus,"<jats:p>In this paper, we focus on quasi-Newton methods to solve constrained generalized equations. As is well-known, this problem was firstly studied by Robinson and Josephy in the 70’s. Since then, it has been extensively studied by many other researchers, specially Dontchev and Rockafellar. Here, we propose two Broyden-type quasi-Newton approaches to dealing with constrained generalized equations, one that requires the exact resolution of the subproblems, and other that allows inexactness, which is closer to numerical reality. In both cases, projections onto the feasible set are also inexact. The local convergence of general quasi-Newton approaches is established under a bounded deterioration of the update matrix and Lipschitz continuity hypotheses. In particular, we prove that a general scheme converges linearly to the solution under suitable assumptions. Furthermore, when a Broyden-type update rule is used, the convergence is superlinearly. Some numerical examples illustrate the applicability of the proposed methods.</jats:p>"
