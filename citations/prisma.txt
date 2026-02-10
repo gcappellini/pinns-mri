@@ -1,0 +1,5 @@
+    \item Search conducted in Scopus, PubMed, IEEE Xplore, ACM Digital Library and arXiv using the keywords "physics-informed neural networks", "\gls{mri}" yielded 141 articles;
+    \item removed 14 duplicated entries, and arXiv preprint replaced with more recent, peer-reviewed and published articles
+    \item 140 potentially relevant articles identified; 83 articles excluded: 65 conference papers, 15 preprints, 2 reviews, 1 book chapters
+    \item 58 potentially relevant articles identified; 7 articles excluded because not related to the \glspl{pinn} in \gls{mri} topic
+    \item 51 peer-reviewed articles included in final review.

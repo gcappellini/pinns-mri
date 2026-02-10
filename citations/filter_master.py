@@ -35,4 +35,14 @@ df = pd.read_csv("PINN_MRI_master.csv")
 
 # print("\nDone!\n")
 
-print(len(df))
+# print DOIs of entries with work_id W00015, 16, 21, 26, 27, 30, 36, 37, 38, 40, 43, 44, 45, 52, 53, 86, 87, 109
+target_work_ids = ["W00015", "W00016", "W00021", "W00026", "W00027", "W00030", "W00036", "W00037", "W00038",
+                   "W00040", "W00043", "W00044", "W00045", "W00052", "W00053", "W00086", "W00087", "W00109"]
+print("DOIs for target work_ids:")
+for wid in target_work_ids:
+    row = df[df["work_id"] == wid]
+    if not row.empty:
+        doi = row["doi"].values[0]
+        print(f"  {wid}: {doi}")
+    else:
+        print(f"  {wid}: Not found in master CSV")
