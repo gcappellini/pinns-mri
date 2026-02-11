@@ -1,23 +1,5 @@
 work_id,title,authors,year,publication_type,venue,volume,issue,doi,pmid,arxiv_id,ieee_doc_id,source_dbs,abstract
-W00001,Physics-informed neural networks for myocardial perfusion MRI quantification,"van Herten RLM, Chiribiri A, Breeuwer M, Veta M, Scannell CM.",2022,journal,Med Image Anal,,,10.1016/j.media.2022.102399,35299005.0,,,PubMed,"1. Med Image Anal. 2022 May;78:102399. doi: 10.1016/j.media.2022.102399. Epub
-2022  Feb 26.
-
-Physics-informed neural networks for myocardial perfusion MRI quantification.
-
-van Herten RLM(1), Chiribiri A(2), Breeuwer M(3), Veta M(1), Scannell CM(4).
-
-Author information:
-(1)Department of Biomedical Engineering, Medical Image Analysis group, Eindhoven 
-University of Technology, Eindhoven, the Netherlands.
-(2)School of Biomedical Engineering and Imaging Sciences, King's College London, 
-United Kingdom.
-(3)Department of Biomedical Engineering, Medical Image Analysis group, Eindhoven 
-University of Technology, Eindhoven, the Netherlands; Philips Healthcare, Best, 
-the Netherlands.
-(4)School of Biomedical Engineering and Imaging Sciences, King's College London, 
-United Kingdom. Electronic address: cian.scannell@kcl.ac.uk.
-
-Tracer-kinetic models allow for the quantification of kinetic parameters such as 
+W00001,Physics-informed neural networks for myocardial perfusion MRI quantification,"van Herten RLM, Chiribiri A, Breeuwer M, Veta M, Scannell CM.",2022,journal,Med Image Anal,,,10.1016/j.media.2022.102399,35299005.0,,,PubMed,"Tracer-kinetic models allow for the quantification of kinetic parameters such as 
 blood flow from dynamic contrast-enhanced magnetic resonance (MR) images. 
 Fitting the observed data with multi-compartment exchange models is desirable, 
 as they are physiologically plausible and resolve directly for blood flow and 
@@ -35,26 +17,8 @@ decrease in mean-squared error with the ground-truth parameters was observed
 compared to a standard non-linear least squares fitting approach. The in vivo 
 study demonstrates that the method produces parameter values comparable to those 
 previously found in literature, as well as providing parameter maps which match 
-the clinical diagnosis of patients.
-
-Copyright © 2022. Published by Elsevier B.V.
-
-DOI: 10.1016/j.media.2022.102399
-PMCID: PMC9051528
-PMID: 35299005 [Indexed for MEDLINE]
-
-Conflict of interest statement: Declaration of Competing Interest Marcel 
-Breeuwer is an employee of Philips Healthcare. All other authors declare that 
-they have no known competing financial interests or personal relationships."
-W00003,Flow-Rate-Constrained Physics-Informed Neural Networks for Flow Field Error Correction in 4-D Flow Magnetic Resonance Imaging,"Kang J, Jung EC, Koo HJ, Yang DH, Ha H.",2025,journal,IEEE Trans Med Imaging,,,10.1109/tmi.2025.3587636,40638348.0,,,PubMed,"1. IEEE Trans Med Imaging. 2025 Dec;44(12):5155-5171. doi: 
-10.1109/TMI.2025.3587636.
-
-Flow-Rate-Constrained Physics-Informed Neural Networks for Flow Field Error 
-Correction in 4-D Flow Magnetic Resonance Imaging.
-
-Kang J, Jung EC, Koo HJ, Yang DH, Ha H.
-
-In this study, we present enhanced physics-informed neural networks (PINNs), 
+the clinical diagnosis of patients."
+W00003,Flow-Rate-Constrained Physics-Informed Neural Networks for Flow Field Error Correction in 4-D Flow Magnetic Resonance Imaging,"Kang J, Jung EC, Koo HJ, Yang DH, Ha H.",2025,journal,IEEE Trans Med Imaging,,,10.1109/tmi.2025.3587636,40638348.0,,,PubMed,"In this study, we present enhanced physics-informed neural networks (PINNs), 
 which were designed to address flow field errors in four-dimensional flow 
 magnetic resonance imaging (4D Flow MRI). Flow field errors, typically occurring 
 in high-velocity regions, lead to inaccuracies in velocity fields and flow rate 
@@ -70,19 +34,8 @@ demonstrated considerable improvements in correcting flow field errors,
 denoising, and super-resolution. Notably, the proposed PINNs provided accurate 
 flow rate reconstruction in stenotic and high-velocity regions. This approach 
 extends the applicability of 4D flow MRI by providing reliable hemodynamics in 
-the post-processing stage.
-
-DOI: 10.1109/TMI.2025.3587636
-PMID: 40638348 [Indexed for MEDLINE]"
-W00004,Magnetic Resonance Electrical Properties Tomography Based on Modified Physics- Informed Neural Network and Multiconstraints,"Ruan G, Wang Z, Liu C, Xia L, Wang H, Qi L, Chen W.",2024,journal,IEEE Trans Med Imaging,,,10.1109/tmi.2024.3391651,38640054.0,,,PubMed,"1. IEEE Trans Med Imaging. 2024 Sep;43(9):3263-3278. doi:
-10.1109/TMI.2024.3391651.  Epub 2024 Sep 3.
-
-Magnetic Resonance Electrical Properties Tomography Based on Modified Physics- 
-Informed Neural Network and Multiconstraints.
-
-Ruan G, Wang Z, Liu C, Xia L, Wang H, Qi L, Chen W.
-
-This paper presents a novel method based on leveraging physics-informed neural 
+the post-processing stage."
+W00004,Magnetic Resonance Electrical Properties Tomography Based on Modified Physics- Informed Neural Network and Multiconstraints,"Ruan G, Wang Z, Liu C, Xia L, Wang H, Qi L, Chen W.",2024,journal,IEEE Trans Med Imaging,,,10.1109/tmi.2024.3391651,38640054.0,,,PubMed,"This paper presents a novel method based on leveraging physics-informed neural 
 networks for magnetic resonance electrical property tomography (MREPT). MREPT is 
 a noninvasive technique that can retrieve the spatial distribution of electrical 
 properties (EPs) of scanned tissues from measured transmit radiofrequency (RF) 
@@ -104,19 +57,8 @@ including the similarity constraint between permittivity and conductivity and
 the l1 norm of spatial gradients of permittivity and conductivity, to the L . We 
 demonstrate the proposed method with a three-dimensional realistic head model, a 
 digital phantom simulation, and a practical phantom experiment at a 9.4T animal 
-MRI system.
-
-DOI: 10.1109/TMI.2024.3391651
-PMID: 38640054 [Indexed for MEDLINE]"
-W00005,Physics-Informed Neural Networks for Brain Hemodynamic Predictions Using Medical Imaging,"Sarabian M, Babaee H, Laksari K.",2022,journal,IEEE Trans Med Imaging,,,10.1109/tmi.2022.3161653,35320090.0,,,PubMed,"1. IEEE Trans Med Imaging. 2022 Sep;41(9):2285-2303. doi:
-10.1109/TMI.2022.3161653.  Epub 2022 Aug 31.
-
-Physics-Informed Neural Networks for Brain Hemodynamic Predictions Using Medical 
-Imaging.
-
-Sarabian M, Babaee H, Laksari K.
-
-Determining brain hemodynamics plays a critical role in the diagnosis and 
+MRI system."
+W00005,Physics-Informed Neural Networks for Brain Hemodynamic Predictions Using Medical Imaging,"Sarabian M, Babaee H, Laksari K.",2022,journal,IEEE Trans Med Imaging,,,10.1109/tmi.2022.3161653,35320090.0,,,PubMed,"Determining brain hemodynamics plays a critical role in the diagnosis and 
 treatment of various cerebrovascular diseases. In this work, we put forth a 
 physics-informed deep learning framework that augments sparse clinical 
 measurements with one-dimensional (1D) reduced-order model (ROM) simulations to 
@@ -141,37 +83,8 @@ that the physics-based deep learning approach can estimate and quantify the
 subject-specific cerebral hemodynamic variables with high accuracy despite 
 lacking knowledge of inlet and outlet boundary conditions, which is a 
 significant limitation for the accuracy of the conventional purely physics-based 
-computational models.
-
-DOI: 10.1109/TMI.2022.3161653
-PMCID: PMC9437127
-PMID: 35320090 [Indexed for MEDLINE]"
-W00006,WarpPINN: Cine-MR image registration with physics-informed neural networks,"Arratia López P, Mella H, Uribe S, Hurtado DE, Sahli Costabal F.",2023,journal,Med Image Anal,,,10.1016/j.media.2023.102925,37598608.0,,,PubMed,"1. Med Image Anal. 2023 Oct;89:102925. doi: 10.1016/j.media.2023.102925. Epub
-2023  Aug 9.
-
-WarpPINN: Cine-MR image registration with physics-informed neural networks.
-
-Arratia López P(1), Mella H(2), Uribe S(3), Hurtado DE(4), Sahli Costabal F(5).
-
-Author information:
-(1)Department of Mathematical Sciences, University of Bath, Bath, UK.
-(2)School of Electrical Engineering, Pontificia Universidad Católica de 
-Valparaíso, Valparaíso, Chile.
-(3)Millennium Institute for Intelligent Healthcare Engineering, iHEALTH, Chile; 
-Biomedical Imaging Center, Pontificia Universidad Católica de Chile, Santiago, 
-Chile.
-(4)Department of Structural and Geotechnical Engineering, School of Engineering, 
-Pontificia Universidad Católica de Chile, Santiago, Chile; Institute for 
-Biological and Medical Engineering, Schools of Engineering, Medicine and 
-Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile.
-(5)Millennium Institute for Intelligent Healthcare Engineering, iHEALTH, Chile; 
-Institute for Biological and Medical Engineering, Schools of Engineering, 
-Medicine and Biological Sciences, Pontificia Universidad Católica de Chile, 
-Santiago, Chile; Department of Mechanical and Metallurgical Engineering, School 
-of Engineering, Pontificia Universidad Católica de Chile, Santiago, Chile. 
-Electronic address: fsc@ing.puc.cl.
-
-The diagnosis of heart failure usually includes a global functional assessment, 
+computational models."
+W00006,WarpPINN: Cine-MR image registration with physics-informed neural networks,"Arratia López P, Mella H, Uribe S, Hurtado DE, Sahli Costabal F.",2023,journal,Med Image Anal,,,10.1016/j.media.2023.102925,37598608.0,,,PubMed,"The diagnosis of heart failure usually includes a global functional assessment, 
 such as ejection fraction measured by magnetic resonance imaging. However, these 
 metrics have low discriminate power to distinguish different cardiomyopathies, 
 which may not affect the global function of the heart. Quantifying local 
@@ -194,33 +107,8 @@ current methodologies in landmark tracking and provide physiological strain
 estimations in the radial and circumferential directions. WarpPINN provides 
 precise measurements of local cardiac deformations that can be used for a better 
 diagnosis of heart failure and can be used for general image registration tasks. 
-Source code is available at https://github.com/fsahli/WarpPINN.
-
-Copyright © 2023 Elsevier B.V. All rights reserved.
-
-DOI: 10.1016/j.media.2023.102925
-PMID: 37598608 [Indexed for MEDLINE]
-
-Conflict of interest statement: Declaration of competing interest The authors 
-declare that they have no known competing financial interests or personal 
-relationships that could have appeared to influence the work reported in this 
-paper."
-W00007,Physics-informed deep learning approach to quantification of human brain metabolites from magnetic resonance spectroscopy data,"Shamaei A, Starcukova J, Starcuk Z Jr.",2023,journal,Comput Biol Med,,,10.1016/j.compbiomed.2023.106837,37044049.0,,,PubMed,"1. Comput Biol Med. 2023 May;158:106837. doi: 10.1016/j.compbiomed.2023.106837. 
-Epub 2023 Apr 5.
-
-Physics-informed deep learning approach to quantification of human brain 
-metabolites from magnetic resonance spectroscopy data.
-
-Shamaei A(1), Starcukova J(2), Starcuk Z Jr(2).
-
-Author information:
-(1)Institute of Scientific Instruments of the Czech Academy of Sciences, Brno, 
-Czech Republic; Department of Biomedical Engineering, Brno University of 
-Technology, Czech Republic. Electronic address: amirshamaei@isibrno.cz.
-(2)Institute of Scientific Instruments of the Czech Academy of Sciences, Brno, 
-Czech Republic.
-
-PURPOSE: While the recommended analysis method for magnetic resonance 
+Source code is available at https://github.com/fsahli/WarpPINN."
+W00007,Physics-informed deep learning approach to quantification of human brain metabolites from magnetic resonance spectroscopy data,"Shamaei A, Starcukova J, Starcuk Z Jr.",2023,journal,Comput Biol Med,,,10.1016/j.compbiomed.2023.106837,37044049.0,,,PubMed,"PURPOSE: While the recommended analysis method for magnetic resonance 
 spectroscopy data is linear combination model (LCM) fitting, the supervised deep 
 learning (DL) approach for quantification of MR spectroscopy (MRS) and MR 
 spectroscopic imaging (MRSI) data recently showed encouraging results; however, 
@@ -243,43 +131,9 @@ CONCLUSION: The proposed model-constrained deep neural networks trained in a
 self-supervised manner can offer fast and efficient quantification of MRS and 
 MRSI data. Our proposed method has the potential to facilitate clinical practice 
 by enabling faster processing of large datasets such as high-resolution MRSI 
-datasets, which may have thousands of spectra.
-
-Copyright © 2023 The Authors. Published by Elsevier Ltd.. All rights reserved.
-
-DOI: 10.1016/j.compbiomed.2023.106837
-PMID: 37044049 [Indexed for MEDLINE]
-
-Conflict of interest statement: Declaration of competing interest The authors 
-have no conflict of interest to declare."
-W00008,Comparison between supervised and physics-informed unsupervised deep neural networks for estimating cerebral perfusion using multi-delay arterial spin labeling MRI,"Ishida S, Fujiwara Y, Takei N, Kimura H, Tsujikawa T.",2024,journal,NMR Biomed,,,10.1002/nbm.5177,38751142.0,,,PubMed,"<jats:title>Abstract</jats:title><jats:p>This study aimed to implement a physics‐informed unsupervised deep neural network (DNN) to estimate cerebral blood flow (CBF) and arterial transit time (ATT) from multi‐delay arterial spin labeling (ASL), and compare its performance with that of a supervised DNN and the conventional method. Supervised and unsupervised DNNs were trained using simulation data. The accuracy and noise immunity of the three methods were compared using simulations and in vivo data. The simulation study investigated the differences between the predicted and ground‐truth values and their variations with the noise level. The in vivo study evaluated the predicted values from the original images and noise‐induced variations in the predicted values from the synthesized noisy images by adding Rician noise to the original images. The simulation study showed that CBF estimated using the supervised DNN was not biased by noise, whereas that estimated using other methods had a positive bias. Although the ATT with all methods exhibited a similar behavior with noise increase, the ATT with the supervised DNN was less biased. The in vivo study showed that CBF and ATT with the supervised DNN were the most accurate and that the supervised and unsupervised DNNs had the highest noise immunity in CBF and ATT estimations, respectively. Physics‐informed unsupervised learning can estimate CBF and ATT from multi‐delay ASL signals, and its performance is superior to that of the conventional method. Although noise immunity in ATT estimation was superior with unsupervised learning, other performances were superior with supervised learning.</jats:p>"
-W00009,Physics-informed neural networks for denoising high b-value diffusion-weighted images,"Lin Q, Yang F, Yan Y, Zhang H, Xie Q, Zheng J, Yang W, Qian L, Liu S, Yao W, Qu X.",2025,journal,Comput Med Imaging Graph,,,10.1016/j.compmedimag.2025.102579,40494002.0,,,PubMed,"1. Comput Med Imaging Graph. 2025 Sep;124:102579. doi: 
-10.1016/j.compmedimag.2025.102579. Epub 2025 Jun 7.
-
-Physics-informed neural networks for denoising high b-value diffusion-weighted 
-images.
-
-Lin Q(1), Yang F(2), Yan Y(3), Zhang H(4), Xie Q(3), Zheng J(3), Yang W(3), Qian 
-L(5), Liu S(5), Yao W(6), Qu X(7).
-
-Author information:
-(1)Department of Electronic Science, Fujian Provincial Key Laboratory of Plasma 
-and Magnetic Resonance, Xiamen University, Xiamen, 361102, Fujian, China.
-(2)Department of Communication Engineering, Xiamen University, Xiamen, 361102, 
-Fujian, China.
-(3)Department of Radiology, Yuyao People's Hospital, Yuyao, 315400, Zhejiang, 
-China.
-(4)Intelligent Instrument and Equipment, Pen-Tung Sah Institute of Micro-Nano 
-Science and Technology, Xiamen University, Xiamen, 361102, Fujian, China.
-(5)China Mobile (Suzhou) Software Technology Company Limited, Suzhou, 215163, 
-Jiangsu, China.
-(6)Department of Radiology, Yuyao People's Hospital, Yuyao, 315400, Zhejiang, 
-China. Electronic address: yyfsk123@qq.com.
-(7)Department of Electronic Science, Fujian Provincial Key Laboratory of Plasma 
-and Magnetic Resonance, Xiamen University, Xiamen, 361102, Fujian, China. 
-Electronic address: quxiaobo@xmu.edu.cn.
-
-Diffusion-weighted imaging (DWI) is widely applied in tumor diagnosis by 
+datasets, which may have thousands of spectra."
+W00008,Comparison between supervised and physics-informed unsupervised deep neural networks for estimating cerebral perfusion using multi-delay arterial spin labeling MRI,"Ishida S, Fujiwara Y, Takei N, Kimura H, Tsujikawa T.",2024,journal,NMR Biomed,,,10.1002/nbm.5177,38751142.0,,,PubMed,"This study aimed to implement a physics‐informed unsupervised deep neural network (DNN) to estimate cerebral blood flow (CBF) and arterial transit time (ATT) from multi‐delay arterial spin labeling (ASL), and compare its performance with that of a supervised DNN and the conventional method. Supervised and unsupervised DNNs were trained using simulation data. The accuracy and noise immunity of the three methods were compared using simulations and in vivo data. The simulation study investigated the differences between the predicted and ground‐truth values and their variations with the noise level. The in vivo study evaluated the predicted values from the original images and noise‐induced variations in the predicted values from the synthesized noisy images by adding Rician noise to the original images. The simulation study showed that CBF estimated using the supervised DNN was not biased by noise, whereas that estimated using other methods had a positive bias. Although the ATT with all methods exhibited a similar behavior with noise increase, the ATT with the supervised DNN was less biased. The in vivo study showed that CBF and ATT with the supervised DNN were the most accurate and that the supervised and unsupervised DNNs had the highest noise immunity in CBF and ATT estimations, respectively. Physics‐informed unsupervised learning can estimate CBF and ATT from multi‐delay ASL signals, and its performance is superior to that of the conventional method. Although noise immunity in ATT estimation was superior with unsupervised learning, other performances were superior with supervised learning."
+W00009,Physics-informed neural networks for denoising high b-value diffusion-weighted images,"Lin Q, Yang F, Yan Y, Zhang H, Xie Q, Zheng J, Yang W, Qian L, Liu S, Yao W, Qu X.",2025,journal,Comput Med Imaging Graph,,,10.1016/j.compmedimag.2025.102579,40494002.0,,,PubMed,"Diffusion-weighted imaging (DWI) is widely applied in tumor diagnosis by 
 measuring the diffusion of water molecules. To increase the sensitivity to tumor 
 identification, faithful high b-value DWI images are expected by setting a 
 stronger strength of gradient field in magnetic resonance imaging (MRI). 
@@ -298,44 +152,8 @@ coefficient value, suggesting its potential effectiveness in preserving
 essential diffusion characteristics. Reader study by 4 radiologists (3, 6, 13, 
 and 18 years of experience) indicates PIND's promising performance on overall 
 quality, signal-to-noise ratio, artifact suppression, and lesion conspicuity, 
-showing potential for improving clinical DWI applications.
-
-Copyright © 2025 Elsevier Ltd. All rights reserved.
-
-DOI: 10.1016/j.compmedimag.2025.102579
-PMID: 40494002 [Indexed for MEDLINE]
-
-Conflict of interest statement: Declaration of competing interest The authors 
-declare that they have no known competing financial interests or personal 
-relationships that could have appeared to influence the work reported in this 
-paper."
-W00010,"Improving microstructural integrity, interstitial fluid, and blood microcirculation images from multi-b-value diffusion MRI using physics-informed neural networks in cerebrovascular disease","Voorter PHM, Backes WH, Gurney-Champion OJ, Wong SM, Staals J, van Oostenbrugge RJ, van der Thiel MM, Jansen JFA, Drenthen GS.",2023,journal,Magn Reson Med,,,10.1002/mrm.29753,37317641.0,,,PubMed,"1. Magn Reson Med. 2023 Oct;90(4):1657-1671. doi: 10.1002/mrm.29753. Epub 2023
-Jun  15.
-
-Improving microstructural integrity, interstitial fluid, and blood 
-microcirculation images from multi-b-value diffusion MRI using physics-informed 
-neural networks in cerebrovascular disease.
-
-Voorter PHM(1)(2), Backes WH(1)(2)(3), Gurney-Champion OJ(4), Wong SM(1), Staals 
-J(3)(5), van Oostenbrugge RJ(2)(3)(5), van der Thiel MM(1)(2), Jansen 
-JFA(1)(2)(6), Drenthen GS(1)(2).
-
-Author information:
-(1)Department of Radiology and Nuclear Medicine, Maastricht University Medical 
-Center, Maastricht, The Netherlands.
-(2)School for Mental Health and Neuroscience, Maastricht University, Maastricht, 
-The Netherlands.
-(3)School for Cardiovascular Disease, Maastricht University, Maastricht, The 
-Netherlands.
-(4)Department of Radiology and Nuclear Medicine, Amsterdam University Medical 
-Center, Cancer Center Amsterdam, University of Amsterdam, Amsterdam, The 
-Netherlands.
-(5)Department of Neurology, Maastricht University Medical Center, Maastricht, 
-The Netherlands.
-(6)Department of Electrical Engineering, Eindhoven University of Technology, 
-Eindhoven, The Netherlands.
-
-PURPOSE: To obtain better microstructural integrity, interstitial fluid, and 
+showing potential for improving clinical DWI applications."
+W00010,"Improving microstructural integrity, interstitial fluid, and blood microcirculation images from multi-b-value diffusion MRI using physics-informed neural networks in cerebrovascular disease","Voorter PHM, Backes WH, Gurney-Champion OJ, Wong SM, Staals J, van Oostenbrugge RJ, van der Thiel MM, Jansen JFA, Drenthen GS.",2023,journal,Magn Reson Med,,,10.1002/mrm.29753,37317641.0,,,PubMed,"PURPOSE: To obtain better microstructural integrity, interstitial fluid, and 
 microvascular images from multi-b-value diffusion MRI data by using a 
 physics-informed neural network (PINN) fitting approach.
 METHODS: Test-retest whole-brain inversion recovery diffusion-weighted images 
@@ -359,27 +177,8 @@ higher voxel-wise accuracy.
 CONCLUSION: Physics-informed neural networks enable robust voxel-wise estimation 
 of three diffusion components from the diffusion-weighted signal. The repeatable 
 and high-quality biological parameter maps generated with PINNs allow for visual 
-evaluation of pathophysiological processes in cerebrovascular disease.
-
-© 2023 The Authors. Magnetic Resonance in Medicine published by Wiley 
-Periodicals LLC on behalf of International Society for Magnetic Resonance in 
-Medicine.
-
-DOI: 10.1002/mrm.29753
-PMID: 37317641 [Indexed for MEDLINE]"
-W00011,Generalizable synthetic MRI with physics-informed convolutional networks,"Jacobs L, Mandija S, Liu H, van den Berg CAT, Sbrizzi A, Maspero M.",2024,journal,Med Phys,,,10.1002/mp.16884,38063208.0,,,PubMed,"1. Med Phys. 2024 May;51(5):3348-3359. doi: 10.1002/mp.16884. Epub 2023 Dec 8.
-
-Generalizable synthetic MRI with physics-informed convolutional networks.
-
-Jacobs L(1)(2), Mandija S(1)(2), Liu H(1)(2), van den Berg CAT(1)(2), Sbrizzi 
-A(1)(2), Maspero M(1)(2).
-
-Author information:
-(1)Department of Radiotherapy, UMC Utrecht, Utrecht, The Netherlands.
-(2)Computational Imaging Group for MR Diagnostics and Therapy, UMC Utrecht, 
-Utrecht, The Netherlands.
-
-BACKGROUND: Magnetic resonance imaging (MRI) provides state-of-the-art image 
+evaluation of pathophysiological processes in cerebrovascular disease."
+W00011,Generalizable synthetic MRI with physics-informed convolutional networks,"Jacobs L, Mandija S, Liu H, van den Berg CAT, Sbrizzi A, Maspero M.",2024,journal,Med Phys,,,10.1002/mp.16884,38063208.0,,,PubMed,"BACKGROUND: Magnetic resonance imaging (MRI) provides state-of-the-art image 
 quality for neuroimaging, consisting of multiple separately acquired contrasts. 
 Synthetic MRI aims to accelerate examinations by synthesizing any desirable 
 contrast from a single acquisition.
@@ -408,37 +207,8 @@ three sequences unseen during model training.
 CONCLUSIONS: The study demonstrated the feasibility of physics-informed, deep 
 learning-based synthetic MRI to generate high-quality contrasts and generalize 
 to contrasts beyond the training data. This technology has the potential to 
-accelerate neuroimaging protocols.
-
-© 2023 The Authors. Medical Physics published by Wiley Periodicals LLC on behalf 
-of American Association of Physicists in Medicine.
-
-DOI: 10.1002/mp.16884
-PMID: 38063208 [Indexed for MEDLINE]"
-W00012,Investigating molecular transport in the human brain from MRI with physics-informed neural networks,"Zapf B, Haubner J, Kuchta M, Ringstad G, Eide PK, Mardal KA.",2022,journal,Sci Rep,,,10.1038/s41598-022-19157-w,36104360.0,,,PubMed,"1. Sci Rep. 2022 Sep 14;12(1):15475. doi: 10.1038/s41598-022-19157-w.
-
-Investigating molecular transport in the human brain from MRI with 
-physics-informed neural networks.
-
-Zapf B(1), Haubner J(2), Kuchta M(2), Ringstad G(3)(4), Eide PK(5)(6), Mardal 
-KA(7)(8).
-
-Author information:
-(1)Faculty of Mathematics and Natural Sciences, University of Oslo, 0851, Oslo, 
-Norway.
-(2)Department of Numerical Analysis and Scientific Computing, Simula Research 
-Laboratory, 0164, Oslo, Norway.
-(3)Department of Radiology, Oslo University Hospital, 0372, Oslo, Norway.
-(4)Department of Geriatrics and Internal medicine, Sorlandet Hospital, 4838, 
-Arendal, Norway.
-(5)Department of Neurosurgery, Oslo University Hospital, 0372, Oslo, Norway.
-(6)Institute of Clinical Medicine, University of Oslo, 0372, Oslo, Norway.
-(7)Faculty of Mathematics and Natural Sciences, University of Oslo, 0851, Oslo, 
-Norway. kent-and@simula.no.
-(8)Department of Numerical Analysis and Scientific Computing, Simula Research 
-Laboratory, 0164, Oslo, Norway. kent-and@simula.no.
-
-In recent years, a plethora of methods combining neural networks and partial 
+accelerate neuroimaging protocols."
+W00012,Investigating molecular transport in the human brain from MRI with physics-informed neural networks,"Zapf B, Haubner J, Kuchta M, Ringstad G, Eide PK, Mardal KA.",2022,journal,Sci Rep,,,10.1038/s41598-022-19157-w,36104360.0,,,PubMed,"In recent years, a plethora of methods combining neural networks and partial 
 differential equations have been developed. A widely known example are 
 physics-informed neural networks, which solve problems involving partial 
 differential equations by training a neural network. We apply physics-informed 
@@ -455,31 +225,8 @@ from magnetic resonance images with physics-informed neural networks becomes
 consistent with results from a finite element based approach when the residuum 
 after training becomes small. The observations presented here are an important 
 first step towards solving inverse problems on cohorts of patients in a 
-semi-automated fashion with physics-informed neural networks.
-
-© 2022. The Author(s).
-
-DOI: 10.1038/s41598-022-19157-w
-PMCID: PMC9474534
-PMID: 36104360 [Indexed for MEDLINE]
-
-Conflict of interest statement: The authors declare no competing interests."
-W00014,Exploring the potential of Physics-Informed Neural Networks to extract vascularization data from DCE-MRI in the presence of diffusion,"Sainz-DeMena D, Pérez MA, García-Aznar JM.",2024,journal,Med Eng Phys,,,10.1016/j.medengphy.2023.104092,38365330.0,,,PubMed,"1. Med Eng Phys. 2024 Jan;123:104092. doi: 10.1016/j.medengphy.2023.104092. Epub 
-2023 Dec 21.
-
-Exploring the potential of Physics-Informed Neural Networks to extract 
-vascularization data from DCE-MRI in the presence of diffusion.
-
-Sainz-DeMena D(1), Pérez MA(1), García-Aznar JM(2).
-
-Author information:
-(1)Department of Mechanical Engineering, Aragon Institute for Engineering 
-Research (I3A), University of Zaragoza, Zaragoza, Spain.
-(2)Department of Mechanical Engineering, Aragon Institute for Engineering 
-Research (I3A), University of Zaragoza, Zaragoza, Spain. Electronic address: 
-jmgaraz@unizar.es.
-
-Dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) is widely used to 
+semi-automated fashion with physics-informed neural networks."
+W00014,Exploring the potential of Physics-Informed Neural Networks to extract vascularization data from DCE-MRI in the presence of diffusion,"Sainz-DeMena D, Pérez MA, García-Aznar JM.",2024,journal,Med Eng Phys,,,10.1016/j.medengphy.2023.104092,38365330.0,,,PubMed,"Dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) is widely used to 
 assess tissue vascularization, particularly in oncological applications. 
 However, the most widely used pharmacokinetic (PK) models do not account for 
 contrast agent (CA) diffusion between neighboring voxels, which can limit the 
@@ -497,38 +244,8 @@ diffusion-corrected tracer-kinetic models. Furthermore, we demonstrate the
 robustness of PINNs compared to other traditional algorithms when faced with 
 noisy or incomplete data. Overall, our results suggest that PINNs can be a 
 valuable tool for improving the accuracy of DCE-MRI data analysis, particularly 
-in cases where CA diffusion plays a significant role.
-
-Copyright © 2023 The Author(s). Published by Elsevier Ltd.. All rights reserved.
-
-DOI: 10.1016/j.medengphy.2023.104092
-PMID: 38365330 [Indexed for MEDLINE]
-
-Conflict of interest statement: Declaration of Competing Interest The authors 
-report no conflicts of interest."
-W00015,"Personalized predictions of Glioblastoma infiltration: Mathematical models, Physics-Informed Neural Networks and multimodal scans","Zhang RZ, Ezhov I, Balcerak M, Zhu A, Wiestler B, Menze B, Lowengrub JS.",2025,journal,Med Image Anal,,,10.1016/j.media.2024.103423,39700844.0,,,PubMed,"1. Med Image Anal. 2025 Apr;101:103423. doi: 10.1016/j.media.2024.103423. Epub
-2024  Dec 12.
-
-Personalized predictions of Glioblastoma infiltration: Mathematical models, 
-Physics-Informed Neural Networks and multimodal scans.
-
-Zhang RZ(1), Ezhov I(2), Balcerak M(3), Zhu A(4), Wiestler B(2), Menze B(3), 
-Lowengrub JS(5).
-
-Author information:
-(1)Department of Mathematics, University of California Irvine, USA. Electronic 
-address: zirui.zhang@uci.edu.
-(2)Technical University of Munich, Germany.
-(3)University of Zurich, Switzerland.
-(4)Carnegie Mellon University, USA.
-(5)Department of Mathematics, University of California Irvine, USA; Department 
-of Biomedical Engineering, University of California Irvine, USA. Electronic 
-address: jlowengr@uci.edu.
-
-Update of
-    ArXiv. 2024 Aug 16:arXiv:2311.16536v3.
-
-Predicting the infiltration of Glioblastoma (GBM) from medical MRI scans is 
+in cases where CA diffusion plays a significant role."
+W00015,"Personalized predictions of Glioblastoma infiltration: Mathematical models, Physics-Informed Neural Networks and multimodal scans","Zhang RZ, Ezhov I, Balcerak M, Zhu A, Wiestler B, Menze B, Lowengrub JS.",2025,journal,Med Image Anal,,,10.1016/j.media.2024.103423,39700844.0,,,PubMed,"Predicting the infiltration of Glioblastoma (GBM) from medical MRI scans is 
 crucial for understanding tumor growth dynamics and designing personalized 
 radiotherapy treatment plans. Mathematical models of GBM growth can complement 
 the data in the prediction of spatial distributions of tumor cells. However, 
@@ -546,34 +263,8 @@ specific parameters. Additionally, the diffuse-domain method is employed to
 handle the complex brain geometry within the PINN framework. The method is 
 validated on both synthetic and patient datasets, showing promise for 
 personalized GBM treatment through parametric inference within clinically 
-relevant timeframes.
-
-Copyright © 2024 Elsevier B.V. All rights reserved.
-
-DOI: 10.1016/j.media.2024.103423
-PMID: 39700844 [Indexed for MEDLINE]
-
-Conflict of interest statement: Declaration of competing interest The authors 
-declare the following financial interests/personal relationships which may be 
-considered as potential competing interests: Co-author Bjoern Menze served as a 
-Regular Member of the Editorial board. If there are other authors, they declare 
-that they have no known competing financial interests or personal relationships 
-that could have appeared to influence the work reported in this paper."
-W00016,SPINNED: Simulation-based physics-informed neural network for deconvolution of dynamic susceptibility contrast MRI perfusion data,"Asaduddin M, Kim EY, Park SH.",2024,journal,Magn Reson Med,,,10.1002/mrm.30095,38623911.0,,,PubMed,"1. Magn Reson Med. 2024 Sep;92(3):1205-1218. doi: 10.1002/mrm.30095. Epub 2024
-Apr  16.
-
-SPINNED: Simulation-based physics-informed neural network for deconvolution of 
-dynamic susceptibility contrast MRI perfusion data.
-
-Asaduddin M(1), Kim EY(2), Park SH(1).
-
-Author information:
-(1)Department of Bio and Brain Engineering, Korea Advanced Institute of Science 
-and Technology, Daejeon, South Korea.
-(2)Department of Radiology, Samsung Medical Center, Sungkyunkwan University 
-School of Medicine, Seoul, South Korea.
-
-PURPOSE: To propose the simulation-based physics-informed neural network for 
+relevant timeframes."
+W00016,SPINNED: Simulation-based physics-informed neural network for deconvolution of dynamic susceptibility contrast MRI perfusion data,"Asaduddin M, Kim EY, Park SH.",2024,journal,Magn Reson Med,,,10.1002/mrm.30095,38623911.0,,,PubMed,"PURPOSE: To propose the simulation-based physics-informed neural network for 
 deconvolution of dynamic susceptibility contrast (DSC) MRI (SPINNED) as an 
 alternative for more robust and accurate deconvolution compared to existing 
 methods.
@@ -596,36 +287,8 @@ DSC MRI. The proposed method does not require any separate ground-truth
 measurement for training and offers additional benefits of quick processing time 
 and coverage of diverse clinical scenarios. Consequently, it will contribute to 
 more reliable, accurate, and rapid diagnoses in clinical applications compared 
-with the previous methods including those based on supervised learning.
-
-© 2024 International Society for Magnetic Resonance in Medicine.
-
-DOI: 10.1002/mrm.30095
-PMID: 38623911 [Indexed for MEDLINE]"
-W00018,PIFON-EPT: MR-Based Electrical Property Tomography Using Physics-Informed Fourier Networks,"Yu X, Serrallés JEC, Giannakopoulos II, Liu Z, Daniel L, Lattanzi R, Zhang Z.",2024,journal,IEEE J Multiscale Multiphys Comput Tech,,,10.1109/jmmct.2023.3345798,39463749.0,,,PubMed,"1. IEEE J Multiscale Multiphys Comput Tech. 2024;9:49-60. doi: 
-10.1109/jmmct.2023.3345798. Epub 2023 Dec 22.
-
-PIFON-EPT: MR-Based Electrical Property Tomography Using Physics-Informed 
-Fourier Networks.
-
-Yu X(1), Serrallés JEC(2), Giannakopoulos II(3), Liu Z(4), Daniel L(2), Lattanzi 
-R(5), Zhang Z(1).
-
-Author information:
-(1)Department of Electrical and Computer Engineering, University of California, 
-Santa Barbara, CA 93106 USA.
-(2)Research Laboratory of Electronics, Department of Electrical Engineering and 
-Computer Science, Massachusetts Institute of Technology, Cambridge, MA 02139 
-USA.
-(3)Bernard and Irene Schwartz Center for Biomedical Imaging, Department of 
-Radiology, New York University Grossman School of Medicine, NY 10016 USA.
-(4)Department of Statistics and Applied Probability, University of California, 
-Santa Barbara, CA 93106 USA.
-(5)Center for Advanced Imaging Innovation and Research (CAIR), and with the 
-Bernard and Irene Schwartz Center for Biomedical Imaging, Department of 
-Radiology, New York University Grossman School of Medicine, NY 10016 USA.
-
-We propose Physics-Informed Fourier Networks for Electrical Properties (EP) 
+with the previous methods including those based on supervised learning."
+W00018,PIFON-EPT: MR-Based Electrical Property Tomography Using Physics-Informed Fourier Networks,"Yu X, Serrallés JEC, Giannakopoulos II, Liu Z, Daniel L, Lattanzi R, Zhang Z.",2024,journal,IEEE J Multiscale Multiphys Comput Tech,,,10.1109/jmmct.2023.3345798,39463749.0,,,PubMed,"We propose Physics-Informed Fourier Networks for Electrical Properties (EP) 
 Tomography (PIFON-EPT), a novel deep learning-based method for EP reconstruction 
 using noisy and/or incomplete magnetic resonance (MR) measurements. Our approach 
 leverages the Helmholtz equation to constrain two networks, responsible for the 
@@ -642,29 +305,8 @@ the generalized Helmholtz equation that accounts for gradients of EP between
 inhomogeneities. This yielded improved results at interfaces between different 
 materials without explicit knowledge of boundary conditions. PIFON-EPT is the 
 first method that can simultaneously reconstruct EP and transmit fields from 
-incomplete noisy MR measurements, providing new opportunities for EPT research.
-
-DOI: 10.1109/jmmct.2023.3345798
-PMCID: PMC11501079
-PMID: 39463749"
-W00019,Data-efficient Bayesian learning for radial dynamic MR reconstruction,"Brahma S, Kolbitsch C, Martin J, Schaeffter T, Kofler A.",2023,journal,Med Phys,,,10.1002/mp.16543,37367947.0,,,PubMed,"1. Med Phys. 2023 Nov;50(11):6955-6977. doi: 10.1002/mp.16543. Epub 2023 Jun 27.
-
-Data-efficient Bayesian learning for radial dynamic MR reconstruction.
-
-Brahma S(1)(2), Kolbitsch C(1)(3), Martin J(1), Schaeffter T(1)(3)(4), Kofler 
-A(1).
-
-Author information:
-(1)Physikalisch-Technische Bundesanstalt (PTB), Braunschweig and Berlin, 
-Germany.
-(2)Department of Radiology, Charité - Universitätsmedizin Berlin, Berlin, 
-Germany.
-(3)School of Imaging Sciences and Biomedical Engineering, King's College London, 
-London, UK.
-(4)Department of Medical Engineering, Technical University of Berlin, Berlin, 
-Germany.
-
-BACKGROUND: Cardiac MRI has become the gold-standard imaging technique for 
+incomplete noisy MR measurements, providing new opportunities for EPT research."
+W00019,Data-efficient Bayesian learning for radial dynamic MR reconstruction,"Brahma S, Kolbitsch C, Martin J, Schaeffter T, Kofler A.",2023,journal,Med Phys,,,10.1002/mp.16543,37367947.0,,,PubMed,"BACKGROUND: Cardiac MRI has become the gold-standard imaging technique for 
 assessing cardiovascular morphology and function. In spite of this, its slow 
 data acquisition process presents imaging challenges due to the motion from 
 heartbeats, respiration, and blood flow. In recent studies, deep learning (DL) 
@@ -704,47 +346,8 @@ multi-coil dynamic MR imaging problem. In addition to improving the image
 quality, embedding the acquisition model in the network architecture decreased 
 the reconstruction uncertainties as well as quantitatively improved the UQ. The 
 UQ provides additional information to assess the performance of different 
-network approaches.
-
-© 2023 Physikalisch-Technische Bundesanstalt. Medical Physics published by Wiley 
-Periodicals LLC on behalf of American Association of Physicists in Medicine.
-
-DOI: 10.1002/mp.16543
-PMID: 37367947 [Indexed for MEDLINE]"
-W00020,Diffusion Correction in Fricke Hydrogel Dosimeters: A Deep Learning Approach with 2D and 3D Physics-Informed Neural Network Models,"Romeo M, Cottone G, D'Oca MC, Bartolotta A, Gallo S, Miraglia R, Gerasia R, Milluzzo G, Romano F, Gagliardo C, Di Martino F, d'Errico F, Marrale M.",2024,journal,Gels,,,10.3390/gels10090565,39330168.0,,,PubMed,"1. Gels. 2024 Aug 30;10(9):565. doi: 10.3390/gels10090565.
-
-Diffusion Correction in Fricke Hydrogel Dosimeters: A Deep Learning Approach 
-with 2D and 3D Physics-Informed Neural Network Models.
-
-Romeo M(1)(2)(3), Cottone G(1), D'Oca MC(1)(2)(4), Bartolotta A(1), Gallo S(5), 
-Miraglia R(6), Gerasia R(6), Milluzzo G(2), Romano F(2), Gagliardo C(7), Di 
-Martino F(8)(9)(10), d'Errico F(11)(12), Marrale M(1)(2)(4).
-
-Author information:
-(1)Department of Physics and Chemistry ""Emilio Segrè"", University of Palermo, 
-Viale delle Scienze, Edificio 18, I-90128 Palermo, Italy.
-(2)Istituto Nazionale di Fisica Nucleare (INFN), Catania Division, Via Santa 
-Sofia, 64, I-95123 Catania, Italy.
-(3)Department of Biological, Chemical and Pharmaceutical Sciences and 
-Technologies, Viale delle Scienze, Edificio 16, I-90128 Palermo, Italy.
-(4)ATEN Center, University of Palermo, Viale delle Scienze, Edificio 18, I-90128 
-Palermo, Italy.
-(5)Department of Physics and Astronomy ""Ettore Majorana"", University of Catania, 
-Via Santa Sofia 64, I-95123 Catania, Italy.
-(6)IRCCS-ISMETT, Radiology Service, Via E. Tricomi, I-90127 Palermo, Italy.
-(7)Department of Biomedicine, Neurosciences and Advanced Diagnostics, University 
-of Palermo, Via del Vespro, 129, I-90127 Palermo, Italy.
-(8)Centro Pisano Ricerca e Implementazione Clinica Flash Radiotherapy 
-(CPFR@CISUP), Presidio S. Chiara, ed. 18 Via Roma 67, I-56126 Pisa, Italy.
-(9)Fisica Sanitaria, Azienda Ospedaliero Universitaria Pisa AOUP, ed.18 Via Roma 
-67, I-56126 Pisa, Italy.
-(10)Istituto Nazionale di Fisica Nucleare (INFN), Pisa Division, Largo B. 
-Pontecorvo 3, I-57127 Pisa, Italy.
-(11)School of Engineering, University of Pisa, Largo Lazzarino 1, I-56126 Pisa, 
-Italy.
-(12)School of Medicine, Yale University, 333 Cedar St, New Haven, CT 06520, USA.
-
-In this work an innovative approach was developed to address a significant 
+network approaches."
+W00020,Diffusion Correction in Fricke Hydrogel Dosimeters: A Deep Learning Approach with 2D and 3D Physics-Informed Neural Network Models,"Romeo M, Cottone G, D'Oca MC, Bartolotta A, Gallo S, Miraglia R, Gerasia R, Milluzzo G, Romano F, Gagliardo C, Di Martino F, d'Errico F, Marrale M.",2024,journal,Gels,,,10.3390/gels10090565,39330168.0,,,PubMed,"In this work an innovative approach was developed to address a significant 
 challenge in the field of radiation dosimetry: the accurate measurement of 
 spatial dose distributions using Fricke gel dosimeters. Hydrogels are widely 
 used in radiation dosimetry due to their ability to simulate the 
@@ -783,33 +386,8 @@ distribution modeled and the dimensionality. This method could expand the
 applicability of Fricke gel dosimeters to a wider range of measurement tasks, 
 from simple planar dose assessments to intricate volumetric analyses. The 
 proposed technique holds great promise for overcoming the limitations imposed by 
-ion diffusion in Fricke gel dosimeters.
-
-DOI: 10.3390/gels10090565
-PMCID: PMC11431587
-PMID: 39330168
-
-Conflict of interest statement: The authors declare no conflicts of interest."
-W00021,DIMOND: DIffusion Model OptimizatioN with Deep Learning,"Li Z, Li Z, Bilgic B, Lee HH, Ying K, Huang SY, Liao H, Tian Q.",2024,journal,Adv Sci (Weinh),,,10.1002/advs.202307965,38634608.0,,,PubMed,"1. Adv Sci (Weinh). 2024 Jun;11(24):e2307965. doi: 10.1002/advs.202307965. Epub 
-2024 Apr 18.
-
-DIMOND: DIffusion Model OptimizatioN with Deep Learning.
-
-Li Z(1), Li Z(2), Bilgic B(3)(4), Lee HH(3)(4), Ying K(5), Huang SY(3)(4), Liao 
-H(1), Tian Q(1).
-
-Author information:
-(1)School of Biomedical Engineering, Tsinghua University, Beijing, 100084, P. R. 
-China.
-(2)Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of 
-Clinical Neurosciences, University of Oxford, Oxford, OX3 9DU, UK.
-(3)Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General 
-Hospital, Charlestown, MA, 02129, USA.
-(4)Harvard Medical School, Boston, MA, 02129, USA.
-(5)Department of Engineering Physics, Tsinghua University, Beijing, 100084, P. 
-R. China.
-
-Diffusion magnetic resonance imaging is an important tool for mapping tissue 
+ion diffusion in Fricke gel dosimeters."
+W00021,DIMOND: DIffusion Model OptimizatioN with Deep Learning,"Li Z, Li Z, Bilgic B, Lee HH, Ying K, Huang SY, Liao H, Tian Q.",2024,journal,Adv Sci (Weinh),,,10.1002/advs.202307965,38634608.0,,,PubMed,"Diffusion magnetic resonance imaging is an important tool for mapping tissue 
 microstructure and structural connectivity non-invasively in the in vivo human 
 brain. Numerous diffusion signal models are proposed to quantify microstructural 
 properties. Nonetheless, accurate estimation of model parameters is 
@@ -829,38 +407,8 @@ DIMOND reduces NODDI model fitting time from hours to minutes, or seconds by
 leveraging transfer learning. In summary, the self-supervised manner, high 
 efficacy, and efficiency of DIMOND increase the practical feasibility and 
 adoption of microstructure and connectivity mapping in clinical and 
-neuroscientific applications.
-
-© 2024 The Authors. Advanced Science published by Wiley‐VCH GmbH.
-
-DOI: 10.1002/advs.202307965
-PMCID: PMC11200022
-PMID: 38634608 [Indexed for MEDLINE]
-
-Conflict of interest statement: The authors declare no conflict of interest."
-W00022,Physics-Informed Neural Network for Modeling the Pulmonary Artery Blood Pressure from Magnetic Resonance Images: A Reduced-Order Navier-Stokes Model,"Jara S, Sotelo J, Ortiz-Puerta D, Estévez PA, Uribe S, Chabert S, Salas R.",2025,journal,Biomedicines,,,10.3390/biomedicines13092058,41007622.0,,,PubMed,"1. Biomedicines. 2025 Aug 23;13(9):2058. doi: 10.3390/biomedicines13092058.
-
-Physics-Informed Neural Network for Modeling the Pulmonary Artery Blood Pressure 
-from Magnetic Resonance Images: A Reduced-Order Navier-Stokes Model.
-
-Jara S(1), Sotelo J(1), Ortiz-Puerta D(2)(3)(4), Estévez PA(2)(5), Uribe S(6), 
-Chabert S(2)(3)(4), Salas R(2)(3)(4).
-
-Author information:
-(1)Departamento de Informática, Universidad Técnica Federico Santa María, 
-Santiago 8940897, Chile.
-(2)Millennium Institute for Intelligent Healthcare Engineering (iHealth), 
-Santiago 7820436, Chile.
-(3)Biomedical Engineering School, Faculty of Engineering, Universidad de 
-Valparaíso, Valparaiso 2362905, Chile.
-(4)Center of Interdisciplinary Biomedical and Engineering Research for 
-Health-MEDING, Universidad de Valparaíso, Valparaiso 2540064, Chile.
-(5)Department of Electrical Engineering, Faculty of Physical and Mathematical 
-Sciences, Universidad de Chile, Santiago 8370451, Chile.
-(6)Department of Medical Imaging and Radiation Sciences, Monash University, 
-Melbourne, VIC 3800, Australia.
-
-Background: Pulmonary arterial pressure is a key parameter for diagnosing 
+neuroscientific applications."
+W00022,Physics-Informed Neural Network for Modeling the Pulmonary Artery Blood Pressure from Magnetic Resonance Images: A Reduced-Order Navier-Stokes Model,"Jara S, Sotelo J, Ortiz-Puerta D, Estévez PA, Uribe S, Chabert S, Salas R.",2025,journal,Biomedicines,,,10.3390/biomedicines13092058,41007622.0,,,PubMed,"Background: Pulmonary arterial pressure is a key parameter for diagnosing 
 cardiovascular and pulmonary diseases. Its measurement through right heart 
 catheterization is considered the gold standard, and it is an invasive procedure 
 that entails significant risks for patients. This has motivated the development 
@@ -879,30 +427,8 @@ literature, reaching a mean arterial pressure of 21.5 mmHg. Conclusions: This
 model presents an innovative approach that avoids invasive methods, being the 
 first study to apply PINNs to estimate pulmonary arterial pressure in 
 bifurcations. In future work, we aim to validate the model in larger populations 
-and confirm pulmonary hypertension cases diagnosed through catheterization.
-
-DOI: 10.3390/biomedicines13092058
-PMCID: PMC12467385
-PMID: 41007622
-
-Conflict of interest statement: The authors declare no conflicts of interest."
-W00023,A physics-informed deep learning framework for dynamic susceptibility contrast perfusion MRI,"Rotkopf LT, Ziener CH, von Knebel-Doeberitz N, Wolf SD, Hohmann A, Wick W, Bendszus M, Schlemmer HP, Paech D, Kurz FT.",2024,journal,Med Phys,,,10.1002/mp.17415,39302179.0,,,PubMed,"1. Med Phys. 2024 Dec;51(12):9031-9040. doi: 10.1002/mp.17415. Epub 2024 Sep 20.
-
-A physics-informed deep learning framework for dynamic susceptibility contrast 
-perfusion MRI.
-
-Rotkopf LT(1), Ziener CH(1), von Knebel-Doeberitz N(1), Wolf SD(2), Hohmann 
-A(3), Wick W(3), Bendszus M(4), Schlemmer HP(1), Paech D(1), Kurz FT(1)(4)(5).
-
-Author information:
-(1)Department of Radiology, German Cancer Research Center, Heidelberg, Germany.
-(2)Medical Faculty, Ruprecht-Karls-University Heidelberg, Heidelberg, Germany.
-(3)Department of Neurology, Heidelberg University Hospital, Heidelberg, Germany.
-(4)Department of Neuroradiology, Heidelberg University Hospital, Heidelberg, 
-Germany.
-(5)Division of Neuroradiology, Geneva University Hospitals, Geneva, Switzerland.
-
-BACKGROUND: Perfusion magnetic resonance imaging (MRI)s plays a central role in 
+and confirm pulmonary hypertension cases diagnosed through catheterization."
+W00023,A physics-informed deep learning framework for dynamic susceptibility contrast perfusion MRI,"Rotkopf LT, Ziener CH, von Knebel-Doeberitz N, Wolf SD, Hohmann A, Wick W, Bendszus M, Schlemmer HP, Paech D, Kurz FT.",2024,journal,Med Phys,,,10.1002/mp.17415,39302179.0,,,PubMed,"BACKGROUND: Perfusion magnetic resonance imaging (MRI)s plays a central role in 
 the diagnosis and monitoring of neurovascular or neurooncological disease. 
 However, conventional processing techniques are limited in their ability to 
 capture relevant characteristics of the perfusion dynamics and suffer from a 
@@ -927,32 +453,8 @@ derived and PINN-predicted perfusion parameters (Pearson's rho for nCBF:
 0.84 ± 0.03 and nCBV: 0.92 ± 0.03 ) and very high indices of image similarity 
 (structural similarity index for nCBF: 0.91 ± 0.03 and for nCBV: 0.98 ± 0.00 ).
 CONCLUSIONS: PINNs can be used to analyze perfusion MRI data and stably recover 
-the response functions of the local vasculature with high accuracy.
-
-© 2024 American Association of Physicists in Medicine.
-
-DOI: 10.1002/mp.17415
-PMID: 39302179 [Indexed for MEDLINE]"
-W00024,Physics-informed deep learning for T2-deblurred superresolution turbo spin echo MRI,"Chen Z, Stapleton MC, Xie Y, Li D, Wu YL, Christodoulou AG.",2023,journal,Magn Reson Med,,,10.1002/mrm.29814,37578085.0,,,PubMed,"1. Magn Reson Med. 2023 Dec;90(6):2362-2374. doi: 10.1002/mrm.29814. Epub 2023
-Aug  14.
-
-Physics-informed deep learning for T2-deblurred superresolution turbo spin echo 
-MRI.
-
-Chen Z(1)(2), Stapleton MC(3), Xie Y(1), Li D(1)(2), Wu YL(3)(4), Christodoulou 
-AG(1)(2).
-
-Author information:
-(1)Biomedical Imaging Research Institute, Cedars-Sinai Medical Center, Los 
-Angeles, California, USA.
-(2)Department of Bioengineering, University of California, Los Angeles, 
-California, USA.
-(3)Department of Developmental Biology, School of Medicine, University of 
-Pittsburgh, Pittsburgh, Pennsylvania, USA.
-(4)Rangos Research Center Animal Imaging Core, Children's Hospital of Pittsburgh 
-of UPMC, Pittsburgh, Pennsylvania, USA.
-
-PURPOSE: Deep learning superresolution (SR) is a promising approach to reduce 
+the response functions of the local vasculature with high accuracy."
+W00024,Physics-informed deep learning for T2-deblurred superresolution turbo spin echo MRI,"Chen Z, Stapleton MC, Xie Y, Li D, Wu YL, Christodoulou AG.",2023,journal,Magn Reson Med,,,10.1002/mrm.29814,37578085.0,,,PubMed,"PURPOSE: Deep learning superresolution (SR) is a promising approach to reduce 
 MRI scan time without requiring custom sequences or iterative reconstruction. 
 Previous deep learning SR approaches have generated low-resolution training 
 images by simple k-space truncation, but this does not properly model in-plane 
@@ -974,23 +476,8 @@ quantitative imaging metrics for both retrospective and prospective evaluations
 and achieved the best imaging-quality expert scores for prospective evaluation.
 CONCLUSION: The proposed T2 -deblurring method improved accuracy and image 
 quality of deep learning-based SR of TSE MRI. This method has the potential to 
-accelerate TSE image acquisition by a factor of up to 9.
-
-© 2023 The Authors. Magnetic Resonance in Medicine published by Wiley 
-Periodicals LLC on behalf of International Society for Magnetic Resonance in 
-Medicine.
-
-DOI: 10.1002/mrm.29814
-PMID: 37578085 [Indexed for MEDLINE]"
-W00025,Joint [Formula: see text] and Image Reconstruction in Low-Field MRI by Physics-Informed Deep-Learning,"Schote D, Winter L, Kolbitsch C, Rose G, Speck O, Kofler A.",2024,journal,IEEE Trans Biomed Eng,,,10.1109/tbme.2024.3396223,38696296.0,,,PubMed,"1. IEEE Trans Biomed Eng. 2024 Oct;71(10):2842-2853. doi: 
-10.1109/TBME.2024.3396223. Epub 2024 Sep 19.
-
-Joint [Formula: see text] and Image Reconstruction in Low-Field MRI by 
-Physics-Informed Deep-Learning.
-
-Schote D, Winter L, Kolbitsch C, Rose G, Speck O, Kofler A.
-
-OBJECTIVE: We present a model-based image reconstruction approach based on 
+accelerate TSE image acquisition by a factor of up to 9."
+W00025,Joint [Formula: see text] and Image Reconstruction in Low-Field MRI by Physics-Informed Deep-Learning,"Schote D, Winter L, Kolbitsch C, Rose G, Speck O, Kofler A.",2024,journal,IEEE Trans Biomed Eng,,,10.1109/tbme.2024.3396223,38696296.0,,,PubMed,"OBJECTIVE: We present a model-based image reconstruction approach based on 
 unrolled neural networks which corrects for image distortion and noise in 
 low-field ( B0  ∼  50 mT) MRI.
 METHODS: Utilising knowledge about the underlying physics, a novel network 
@@ -1009,46 +496,8 @@ SIGNIFICANCE: low-field MRI is becoming increasingly more popular as it enables
 access to MR in challenging situations such as intensive care units or resource 
 poor areas. Our method allows for fast and accurate image reconstruction in such 
 low-field imaging with B0-inhomogeneity compensation under a wide range of 
-various environmental conditions.
-
-DOI: 10.1109/TBME.2024.3396223
-PMID: 38696296 [Indexed for MEDLINE]"
-W00026,Deep learning DCE-MRI parameter estimation: Application in pancreatic cancer,"Ottens T, Barbieri S, Orton MR, Klaassen R, van Laarhoven HWM, Crezee H, Nederveen AJ, Zhen X, Gurney-Champion OJ.",2022,journal,Med Image Anal,,,10.1016/j.media.2022.102512,35709559.0,,,PubMed,"1. Med Image Anal. 2022 Aug;80:102512. doi: 10.1016/j.media.2022.102512. Epub
-2022  Jun 7.
-
-Deep learning DCE-MRI parameter estimation: Application in pancreatic cancer.
-
-Ottens T(1), Barbieri S(2), Orton MR(3), Klaassen R(4), van Laarhoven HWM(5), 
-Crezee H(6), Nederveen AJ(7), Zhen X(8), Gurney-Champion OJ(9).
-
-Author information:
-(1)Department of Radiology and Nuclear Medicine, Cancer Center Amsterdam, 
-Amsterdam UMC, University of Amsterdam, HV Amsterdam 1081, the Netherlands. 
-Electronic address: t.ottens@amsterdamumc.nl.
-(2)Centre for Big Data Research in Health, UNSW, Sydney, Australia. Electronic 
-address: s.barbieri@unsw.edu.au.
-(3)Department of Radiology, The Royal Marsden NHS Foundation Trust and The 
-Institute for Cancer Research, Londen, United Kingdom. Electronic address: 
-matthew.orton@icr.ac.uk.
-(4)Department of Medical Oncology, Cancer Center Amsterdam, Amsterdam UMC, 
-University of Amsterdam, HV Amsterdam 1081, the Netherlands. Electronic address: 
-r.klaassen@amsterdamumc.nl.
-(5)Department of Medical Oncology, Cancer Center Amsterdam, Amsterdam UMC, 
-University of Amsterdam, HV Amsterdam 1081, the Netherlands. Electronic address: 
-h.vanlaarhoven@amsterdamumc.nl.
-(6)Department of Radiation Oncology, Cancer Center Amsterdam, Amsterdam UMC, 
-University of Amsterdam, HV Amsterdam 1081, the Netherlands. Electronic address: 
-h.crezee@amsterdamumc.nl.
-(7)Department of Radiology and Nuclear Medicine, Cancer Center Amsterdam, 
-Amsterdam UMC, University of Amsterdam, HV Amsterdam 1081, the Netherlands. 
-Electronic address: a.j.nederveen@amsterdamumc.nl.
-(8)AIM Lab, University of Amsterdam, XH Amsterdam 1098, the Netherlands. 
-Electronic address: zhenxt@gmail.com.
-(9)Department of Radiology and Nuclear Medicine, Cancer Center Amsterdam, 
-Amsterdam UMC, University of Amsterdam, HV Amsterdam 1081, the Netherlands. 
-Electronic address: o.j.gurney-champion@amsterdamumc.nl.
-
-Dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) is an MRI 
+various environmental conditions."
+W00026,Deep learning DCE-MRI parameter estimation: Application in pancreatic cancer,"Ottens T, Barbieri S, Orton MR, Klaassen R, van Laarhoven HWM, Crezee H, Nederveen AJ, Zhen X, Gurney-Champion OJ.",2022,journal,Med Image Anal,,,10.1016/j.media.2022.102512,35709559.0,,,PubMed,"Dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) is an MRI 
 technique for quantifying perfusion that can be used in clinical applications 
 for classification of tumours and other types of diseases. Conventionally, the 
 non-linear least squares (NLLS) methods is used for tracer-kinetic modelling of 
@@ -1072,41 +521,8 @@ changes in DCE parameters post chemo-radiotherapy. Although the U-Net and CNN
 had even better test-retest characteristics than the GRU, and were able to 
 detect even more responders, they also showed potential systematic errors in the 
 parameter maps. Therefore, we advise using our GRU framework for analysing DCE 
-data.
-
-Copyright © 2022 The Author(s). Published by Elsevier B.V. All rights reserved.
-
-DOI: 10.1016/j.media.2022.102512
-PMID: 35709559 [Indexed for MEDLINE]
-
-Conflict of interest statement: Declaration of Competing Interest None."
-W00027,Physics-Informed Neural Networks (PINNs) for solving the forward and inverse problems of prostate biomechanics,"Ferrón-Vivó M, Nadal E, Navarro-Jiménez JM, Gregori S, Rupérez MJ.",2026,journal,J Mech Behav Biomed Mater,,,10.1016/j.jmbbm.2025.107225,41092576.0,,,PubMed,"1. J Mech Behav Biomed Mater. 2026 Jan;173:107225. doi: 
-10.1016/j.jmbbm.2025.107225. Epub 2025 Oct 11.
-
-Physics-Informed Neural Networks (PINNs) for solving the forward and inverse 
-problems of prostate biomechanics.
-
-Ferrón-Vivó M(1), Nadal E(2), Navarro-Jiménez JM(3), Gregori S(4), Rupérez 
-MJ(5).
-
-Author information:
-(1)Instituto de Ingeniería Mecánica y Biomecánica (I2MB), Universitat 
-Politècnica de València, Camino de Vera s/n, 46022, Valencia, Spain. Electronic 
-address: mferviv@upvnet.upv.es.
-(2)Instituto de Ingeniería Mecánica y Biomecánica (I2MB), Universitat 
-Politècnica de València, Camino de Vera s/n, 46022, Valencia, Spain. Electronic 
-address: ennaso@upvnet.upv.es.
-(3)Instituto de Ingeniería Mecánica y Biomecánica (I2MB), Universitat 
-Politècnica de València, Camino de Vera s/n, 46022, Valencia, Spain. Electronic 
-address: jonaji@upv.es.
-(4)Instituto de Ingeniería Mecánica y Biomecánica (I2MB), Universitat 
-Politècnica de València, Camino de Vera s/n, 46022, Valencia, Spain. Electronic 
-address: sangreve@upv.es.
-(5)Instituto de Ingeniería Mecánica y Biomecánica (I2MB), Universitat 
-Politècnica de València, Camino de Vera s/n, 46022, Valencia, Spain. Electronic 
-address: mjrupere@upvnet.upv.es.
-
-This work introduces a novel integration of Physics-Informed Neural Networks 
+data."
+W00027,Physics-Informed Neural Networks (PINNs) for solving the forward and inverse problems of prostate biomechanics,"Ferrón-Vivó M, Nadal E, Navarro-Jiménez JM, Gregori S, Rupérez MJ.",2026,journal,J Mech Behav Biomed Mater,,,10.1016/j.jmbbm.2025.107225,41092576.0,,,PubMed,"This work introduces a novel integration of Physics-Informed Neural Networks 
 (PINNs) with hyperelastic material modeling, employing the Neo-Hookean model to 
 estimate the stiffness of soft tissue organs based on realistic anatomical 
 geometries. Specifically, we propose the modeling of the prostate biomechanics 
@@ -1119,45 +535,8 @@ requiring limited data while overcoming challenges in data scarcity. This
 approach marks a significant advancement in patient-specific precision medicine, 
 enabling improved diagnostics, personalized treatment planning, and broader 
 applications in the biomechanical characterization of other soft tissues and 
-organ systems.
-
-Copyright © 2025 The Authors. Published by Elsevier Ltd.. All rights reserved.
-
-DOI: 10.1016/j.jmbbm.2025.107225
-PMID: 41092576 [Indexed for MEDLINE]
-
-Conflict of interest statement: Declaration of competing interest The authors 
-declare the following financial interests/personal relationships which may be 
-considered as potential competing interests: María José Rupérez reports 
-financial support was provided by Generalitat of Valencia. María José Rupérez 
-reports financial support was provided by European Regional Development Fund. 
-María José Rupérez reports financial support was provided by Spain Ministry of 
-Science and Innovation. If there are other authors, they declare that they have 
-no known competing financial interests or personal relationships that could have 
-appeared to influence the work reported in this paper."
-W00028,PINNing cerebral blood flow: analysis of perfusion MRI in infants using physics-informed neural networks,"Galazis C, Chiu CE, Arichi T, Bharath AA, Varela M.",2025,journal,Front Netw Physiol,,,10.3389/fnetp.2025.1488349,40028512.0,,,PubMed,"1. Front Netw Physiol. 2025 Feb 14;5:1488349. doi: 10.3389/fnetp.2025.1488349. 
-eCollection 2025.
-
-PINNing cerebral blood flow: analysis of perfusion MRI in infants using 
-physics-informed neural networks.
-
-Galazis C(1)(2), Chiu CE(2)(3), Arichi T(4), Bharath AA(5)(6), Varela M(2)(7).
-
-Author information:
-(1)Department of Computing, Imperial College London, London, United Kingdom.
-(2)National Heart and Lung Institute, Imperial College London, London, United 
-Kingdom.
-(3)Department of Electrical Engineering, Imperial College London, London, United 
-Kingdom.
-(4)Centre for the Developing Brain, King's College London, London, United 
-Kingdom.
-(5)Imperial Global Singapore, CREATE Tower, Singapore, Singapore.
-(6)Department of Bioengineering, Imperial College London, London, United 
-Kingdom.
-(7)Cardiovascular and Genomics Research Institute, City St George's University 
-of London, London, United Kingdom.
-
-Arterial spin labelling (ASL) magnetic resonance imaging (MRI) enables cerebral 
+organ systems."
+W00028,PINNing cerebral blood flow: analysis of perfusion MRI in infants using physics-informed neural networks,"Galazis C, Chiu CE, Arichi T, Bharath AA, Varela M.",2025,journal,Front Netw Physiol,,,10.3389/fnetp.2025.1488349,40028512.0,,,PubMed,"Arterial spin labelling (ASL) magnetic resonance imaging (MRI) enables cerebral 
 perfusion measurement, which is crucial in detecting and managing neurological 
 issues in infants born prematurely or after perinatal complications. However, 
 cerebral blood flow (CBF) estimation in infants using ASL remains challenging 
@@ -1177,33 +556,8 @@ PINNs for accurate multi-parameter perfusion estimation from noisy and limited
 ASL data in infants. Frameworks like SUPINN have the potential to advance our 
 understanding of the complex cardio-brain network physiology, aiding in the 
 detection and management of diseases. Source code is provided at: 
-https://github.com/cgalaz01/supinn.
-
-Copyright © 2025 Galazis, Chiu, Arichi, Bharath and Varela.
-
-DOI: 10.3389/fnetp.2025.1488349
-PMCID: PMC11868054
-PMID: 40028512
-
-Conflict of interest statement: The authors declare that the research was 
-conducted in the absence of any commercial or financial relationships that could 
-be construed as a potential conflict of interest."
-W00029,Anatomy-derived 3D Aortic Hemodynamics Using Fluid Physics-informed Deep Learning,"Berhane H, Maroun A, Dushfunian D, Baraboo J, Martinez G, Jacobson T, Bagci U, Allen BD, Markl M.",2025,journal,Radiology,,,10.1148/radiol.240714,40326877.0,,,PubMed,"1. Radiology. 2025 May;315(2):e240714. doi: 10.1148/radiol.240714.
-
-Anatomy-derived 3D Aortic Hemodynamics Using Fluid Physics-informed Deep 
-Learning.
-
-Berhane H(1)(2), Maroun A(1), Dushfunian D(1), Baraboo J(1), Martinez G(1), 
-Jacobson T(1)(3), Bagci U(1)(2), Allen BD(1), Markl M(1)(2).
-
-Author information:
-(1)Department of Radiology, Feinberg School of Medicine, Northwestern 
-University, 737 N Michigan Ave, Ste 1600, Chicago, IL 60611.
-(2)Department of Biomedical Engineering, McCormick School of Engineering, 
-Northwestern University, Evanston, Ill.
-(3)Kellogg School of Management, Northwestern University, Evanston, Ill.
-
-Background Four-dimensional (4D) flow MRI provides assessment of thoracic aorta 
+https://github.com/cgalaz01/supinn."
+W00029,Anatomy-derived 3D Aortic Hemodynamics Using Fluid Physics-informed Deep Learning,"Berhane H, Maroun A, Dushfunian D, Baraboo J, Martinez G, Jacobson T, Bagci U, Allen BD, Markl M.",2025,journal,Radiology,,,10.1148/radiol.240714,40326877.0,,,PubMed,"Background Four-dimensional (4D) flow MRI provides assessment of thoracic aorta 
 hemodynamic measures that are increasingly recognized as important biomarkers 
 for risk assessment. However, long acquisition times and cumbersome data 
 analysis limit widespread availability. Purpose To evaluate the feasibility and 
@@ -1239,43 +593,8 @@ demonstrated strong to excellent performance for peak velocities and WSS (r2 =
 Aorta 3D hemodynamics can be derived from anatomic input in less than 1 second 
 using an FPI-CycleGAN and demonstrate strong agreement with in vivo 4D flow MRI 
 systolic hemodynamics. © RSNA, 2025 Supplemental material is available for this 
-article.
-
-DOI: 10.1148/radiol.240714
-PMCID: PMC12127965
-PMID: 40326877 [Indexed for MEDLINE]
-
-Conflict of interest statement: Disclosures of conflicts of interest: H.B. No 
-relevant relationships. A.M. No relevant relationships. D.D. No relevant 
-relationships. J.B. No relevant relationships. G.M. No relevant relationships. 
-T.J. No relevant relationships. U.B. No relevant relationships. B.D.A. Grants to 
-institution (Northwestern University) from Guerbet and the National Institutes 
-of Health/National Heart, Lung, and Blood Institute (NIH/NHLBI) and grant to 
-institution (Third Coast Dynamics) from NIH/NHLBI; consulting fees from Circle 
-Cardiovascular Imaging; payment for lectures from Siemens, MRI Online, and 
-Circle Cardiovascular Imaging; payment for expert testimony from Burns-White; 
-payment for attending meetings and/or travel from Siemens; patents pending with 
-Northwestern University; co-founder and president of Third Coast Dynamics; stock 
-or stock options in Third Coast Dynamics. M.M. Grant support from Siemens and 
-Circle Cardiovascular Imaging; co-founder of and shareholder in Third Coast 
-Dynamics; deputy editor for Radiology: Cardiothoracic Imaging."
-W00030,Deep supervised dictionary learning by algorithm unrolling-Application to fast 2D dynamic MR image reconstruction,"Kofler A, Pali MC, Schaeffter T, Kolbitsch C.",2023,journal,Med Phys,,,10.1002/mp.16182,36565150.0,,,PubMed,"1. Med Phys. 2023 May;50(5):2939-2960. doi: 10.1002/mp.16182. Epub 2023 Jan 17.
-
-Deep supervised dictionary learning by algorithm unrolling-Application to fast 
-2D dynamic MR image reconstruction.
-
-Kofler A(1), Pali MC(2), Schaeffter T(1)(3)(4), Kolbitsch C(1)(3).
-
-Author information:
-(1)Physikalisch-Technische Bundesanstalt (PTB), Braunschweig and Berlin, 
-Germany.
-(2)Department of Mathematics, University of Innsbruck, Innsbruck, Austria.
-(3)Division of Imaging Sciences and Biomedical Engineering, King's College 
-London, London, UK.
-(4)Department of Medical Engineering, Technical University of Berlin, Berlin, 
-Germany.
-
-BACKGROUND: Unrolled neural networks (NNs) have been extensively applied to 
+article."
+W00030,Deep supervised dictionary learning by algorithm unrolling-Application to fast 2D dynamic MR image reconstruction,"Kofler A, Pali MC, Schaeffter T, Kolbitsch C.",2023,journal,Med Phys,,,10.1002/mp.16182,36565150.0,,,PubMed,"BACKGROUND: Unrolled neural networks (NNs) have been extensively applied to 
 different image reconstruction problems across all imaging modalities. A key 
 component of the latter is that they allow for physics-informed learning of the 
 regularization method, which is parametrized by the NN. However, due to the lack 
@@ -1317,46 +636,8 @@ it has the advantage of being entirely interpretable in each component.
 CONCLUSIONS: The presented physics-informed NN can be used as training algorithm 
 for a classical and interpretable data-driven regularization method based on a 
 learned dictionary, which can then not only be linked to the considered data but 
-also to the reconstruction method that the NN defines.
-
-© 2022 Physikalisch-Technische Bundesanstalt and The Authors. Medical Physics 
-published by Wiley Periodicals LLC on behalf of American Association of 
-Physicists in Medicine.
-
-DOI: 10.1002/mp.16182
-PMID: 36565150 [Indexed for MEDLINE]"
-W00031,Quantitative analysis of molecular transport in the extracellular space using physics-informed neural network,"Xie J, Li H, Su S, Cheng J, Cai Q, Tan H, Zu L, Qu X, Han H.",2024,journal,Comput Biol Med,,,10.1016/j.compbiomed.2024.108133,38364661.0,,,PubMed,"1. Comput Biol Med. 2024 Mar;171:108133. doi: 10.1016/j.compbiomed.2024.108133. 
-Epub 2024 Feb 13.
-
-Quantitative analysis of molecular transport in the extracellular space using 
-physics-informed neural network.
-
-Xie J(1), Li H(2), Su S(2), Cheng J(3), Cai Q(4), Tan H(2), Zu L(5), Qu X(4), 
-Han H(6).
-
-Author information:
-(1)Department of Automation, Tsinghua University, Beijing 100084, China; 
-Institute of Medical Technology, Peking University Health Science Center, 
-Beijing 100191, China.
-(2)Institute of Medical Technology, Peking University Health Science Center, 
-Beijing 100191, China.
-(3)School of Mathematical Sciences, Fudan University, Shanghai 200433, China.
-(4)National Integrated Circuit Industry Education Integration Innovation 
-Platform, School of Electronic Science and Engineering (National Model 
-Microelectronics College), Xiamen University, Xiamen 361102, China; Department 
-of Electronic Science, Fujian Provincial Key Laboratory of Plasma and Magnetic 
-Resonance, Xiamen University, Xiamen 361102, China.
-(5)Department of Endocrinology and Metabolism, Department of Cardiology and 
-Institute of Vascular Medicine, Peking University Third Hospital, Beijing 
-100191, China.
-(6)Institute of Medical Technology, Peking University Health Science Center, 
-Beijing 100191, China; Department of Radiology, Peking University Third 
-Hospital, Beijing 100191, China; Peking University Third Hospital, Beijing Key 
-Laboratory of Magnetic Resonance Imaging Devices and Technology, Beijing 100191, 
-China; NMPA key Laboratory of Evaluation of Medical Imaging Equipment and 
-Technique, Beijing 100191, China. Electronic address: hanhongbin@bjmu.edu.cn.
-
-The brain extracellular space (ECS), an irregular, extremely tortuous nanoscale 
+also to the reconstruction method that the NN defines."
+W00031,Quantitative analysis of molecular transport in the extracellular space using physics-informed neural network,"Xie J, Li H, Su S, Cheng J, Cai Q, Tan H, Zu L, Qu X, Han H.",2024,journal,Comput Biol Med,,,10.1016/j.compbiomed.2024.108133,38364661.0,,,PubMed,"The brain extracellular space (ECS), an irregular, extremely tortuous nanoscale 
 space located between cells or between cells and blood vessels, is crucial for 
 nerve cell survival. It plays a pivotal role in high-level brain functions such 
 as memory, emotion, and sensation. However, the specific form of molecular 
@@ -1376,42 +657,8 @@ captured at different time points showcases the effectiveness of the proposed
 method. Notably, our simulations reveal identical molecular transport patterns 
 between datasets representing rats with tracer injected into the same brain 
 region. These findings highlight the potential of PINN as a promising tool for 
-comprehensively exploring molecular transport within the ECS.
-
-Copyright © 2024 Elsevier Ltd. All rights reserved.
-
-DOI: 10.1016/j.compbiomed.2024.108133
-PMID: 38364661 [Indexed for MEDLINE]
-
-Conflict of interest statement: Declaration of competing interest We declare 
-that we have no financial and personal relationships with other people or 
-organizations that can inappropriately influence our work, there is no 
-professional or other personal interest of any nature or kind in any product, 
-service and/or company that could be construed as influencing the position 
-presented in, or the review of, the manuscript entitled."
-W00032,"Cerebrovascular super-resolution 4D Flow MRI - Sequential combination of resolution enhancement by deep learning and physics-informed image processing to non-invasively quantify intracranial velocity, flow, and relative pressure","Ferdian E, Marlevi D, Schollenberger J, Aristova M, Edelman ER, Schnell S, Figueroa CA, Nordsletten DA, Young AA.",2023,journal,Med Image Anal,,,10.1016/j.media.2023.102831,37244143.0,,,PubMed,"1. Med Image Anal. 2023 Aug;88:102831. doi: 10.1016/j.media.2023.102831. Epub
-2023  Apr 22.
-
-Cerebrovascular super-resolution 4D Flow MRI - Sequential combination of 
-resolution enhancement by deep learning and physics-informed image processing to 
-non-invasively quantify intracranial velocity, flow, and relative pressure.
-
-Ferdian E(1), Marlevi D(2), Schollenberger J(3), Aristova M(4), Edelman ER(2), 
-Schnell S(5), Figueroa CA(3), Nordsletten DA(6), Young AA(7).
-
-Author information:
-(1)University of Auckland, Auckland 1142 New Zealand.
-(2)Massachusetts Institute of Technology, Cambridge, MA 02139 USA.
-(3)University of Michigan, Ann Arbor, MI 48109, USA.
-(4)Northwestern University, Chicago, IL 60611, USA.
-(5)Northwestern University, Chicago, IL 60611, USA; University of Greifswald, 
-Greifswald 17489, Germany.
-(6)University of Michigan, Ann Arbor, MI 48109, USA; King's College London, 
-London, SE1 7EH, UK.
-(7)University of Auckland, Auckland 1142 New Zealand; King's College London, 
-London, SE1 7EH, UK.
-
-The development of cerebrovascular disease is tightly coupled to regional 
+comprehensively exploring molecular transport within the ECS."
+W00032,"Cerebrovascular super-resolution 4D Flow MRI - Sequential combination of resolution enhancement by deep learning and physics-informed image processing to non-invasively quantify intracranial velocity, flow, and relative pressure","Ferdian E, Marlevi D, Schollenberger J, Aristova M, Edelman ER, Schnell S, Figueroa CA, Nordsletten DA, Young AA.",2023,journal,Med Image Anal,,,10.1016/j.media.2023.102831,37244143.0,,,PubMed,"The development of cerebrovascular disease is tightly coupled to regional 
 changes in intracranial flow and relative pressure. Image-based assessment using 
 phase contrast magnetic resonance imaging has particular promise for 
 non-invasive full-field mapping of cerebrovascular hemodynamics. However, 
@@ -1437,35 +684,8 @@ is applied to an in-vivo volunteer cohort, effectively generating intracranial
 flow images at <0.5 mm resolution and showing reduced low-resolution bias in 
 relative pressure estimation. Our work thus presents a promising two-step 
 approach to non-invasively quantify cerebrovascular hemodynamics, being 
-applicable to dedicated clinical cohorts in the future.
-
-Copyright © 2023. Published by Elsevier B.V.
-
-DOI: 10.1016/j.media.2023.102831
-PMID: 37244143 [Indexed for MEDLINE]
-
-Conflict of interest statement: Declaration of Competing Interest The Authors 
-declare that there is no conflict of interest"
-W00033,Fat-water MRI separation using deep complex convolution network,"Ganeshkumar M, Kandasamy D, Sharma R, Mehndiratta A.",2025,journal,MAGMA,,,10.1007/s10334-025-01268-w,40608268.0,,,PubMed,"1. MAGMA. 2025 Dec;38(6):959-977. doi: 10.1007/s10334-025-01268-w. Epub 2025 Jul
-3.
-
-Fat-water MRI separation using deep complex convolution network.
-
-Ganeshkumar M(1), Kandasamy D(2), Sharma R(2), Mehndiratta A(3)(4)(5).
-
-Author information:
-(1)Centre for Biomedical Engineering, Indian Institute of Technology Delhi, Hauz 
-Khas, New Delhi, 110016, India.
-(2)Department of Radio Diagnosis, All India Institute of Medical Sciences, New 
-Delhi, India.
-(3)Centre for Biomedical Engineering, Indian Institute of Technology Delhi, Hauz 
-Khas, New Delhi, 110016, India. amit.mehndiratta@keble.oxon.org.
-(4)Yardi School of Artificial Intelligence, Indian Institute of Technology 
-Delhi, New Delhi, India. amit.mehndiratta@keble.oxon.org.
-(5)Faculty of Medicine and Health, University of New South Wales (UNSW), Sydney, 
-Australia. amit.mehndiratta@keble.oxon.org.
-
-OBJECTIVE: Deep complex convolutional networks (DCCNs) utilize complex-valued 
+applicable to dedicated clinical cohorts in the future."
+W00033,Fat-water MRI separation using deep complex convolution network,"Ganeshkumar M, Kandasamy D, Sharma R, Mehndiratta A.",2025,journal,MAGMA,,,10.1007/s10334-025-01268-w,40608268.0,,,PubMed,"OBJECTIVE: Deep complex convolutional networks (DCCNs) utilize complex-valued 
 convolutions and can process complex-valued MRI signals directly without 
 splitting them into two real-valued magnitude and phase components. The 
 performance of DCCN and real-valued U-Net is thoroughly investigated in the 
@@ -1484,70 +704,9 @@ method for fat-water separation. The DCCN achieved an overall average SSIM of
 0.847 ± 0.069 and 0.861 ± 0.078 in generating fat and water maps, respectively, 
 in contrast the U-Net achieved only 0.653 ± 0.166 and 0.729 ± 0.134. The average 
 liver PDFF from DCCN achieved a correlation coefficient R of 0.847 with the 
-reference approach.
+reference approach."
 
-© 2025. The Author(s), under exclusive licence to European Society for Magnetic 
-Resonance in Medicine and Biology (ESMRMB).
-
-DOI: 10.1007/s10334-025-01268-w
-PMID: 40608268 [Indexed for MEDLINE]
-
-Conflict of interest statement: Declarations. Conflict of interest: Not 
-applicable. Clinical trials: Not applicable. Consent to participate: The 
-complete study protocol was explained, and written consent was obtained from all 
-patients and healthy volunteers before participation. Consent for publication: 
-Not applicable. Ethics approval: The study protocol was approved by the 
-Institutional Review Board at All India Institute of Medical Sciences—New Delhi, 
-India (Reference No. IEC-316/15.06.2023, RP-11/2023)."
-W00034,Myo-regressor Deep Informed Neural NetwOrk (Myo-DINO) for fast MR parameters mapping in neuromuscular disorders,"Barzaghi L, Brero F, Cabini RF, Paoletti M, Monforte M, Lizzi F, Santini F, Deligianni X, Bergsland N, Ravaglia S, Cavagna L, Diamanti L, Bonizzoni C, Lascialfari A, Figini S, Ricci E, Postuma I, Pichiecchio A.",2024,journal,Comput Methods Programs Biomed,,,10.1016/j.cmpb.2024.108399,39236561.0,,,PubMed,"1. Comput Methods Programs Biomed. 2024 Nov;256:108399. doi: 
-10.1016/j.cmpb.2024.108399. Epub 2024 Aug 28.
-
-Myo-regressor Deep Informed Neural NetwOrk (Myo-DINO) for fast MR parameters 
-mapping in neuromuscular disorders.
-
-Barzaghi L(1), Brero F(2), Cabini RF(3), Paoletti M(4), Monforte M(5), Lizzi 
-F(6), Santini F(7), Deligianni X(7), Bergsland N(8), Ravaglia S(9), Cavagna 
-L(10), Diamanti L(9), Bonizzoni C(4), Lascialfari A(2), Figini S(11), Ricci 
-E(5), Postuma I(2), Pichiecchio A(12).
-
-Author information:
-(1)Department of Mathematics, University of Pavia, Via Ferrata 5, 27100 Pavia, 
-Italy; Advanced Imaging and Artificial Intelligence Center, Department of 
-Neuroradiology, IRCCS Mondino, Foundation, Via Mondino 2, 27100 Pavia, Italy; 
-INFN, Istituto Nazionale di Fisica Nucleare, Pavia Unit, Via Bassi 6, 27100, 
-Pavia, Italy. Electronic address: leonardo.barzaghi01@universitadipavia.it.
-(2)INFN, Istituto Nazionale di Fisica Nucleare, Pavia Unit, Via Bassi 6, 27100, 
-Pavia, Italy; Department of Physics, University of Pavia, Via Bassi 6, 27100, 
-Pavia, Italy.
-(3)Department of Mathematics, University of Pavia, Via Ferrata 5, 27100 Pavia, 
-Italy; INFN, Istituto Nazionale di Fisica Nucleare, Pavia Unit, Via Bassi 6, 
-27100, Pavia, Italy; Euler Institute, Università della Svizzera Italiana, Via la 
-Santa 1, 6962 Lugano, Switzerland.
-(4)Advanced Imaging and Artificial Intelligence Center, Department of 
-Neuroradiology, IRCCS Mondino, Foundation, Via Mondino 2, 27100 Pavia, Italy.
-(5)UOC di Neurologia, Fondazione Policlinico Universitario A. Gemelli IRCCS, 
-Rome, Italy.
-(6)INFN, Istituto Nazionale di Fisica Nucleare, Pisa Unit, Largo Bruno 
-Pontecorvo, 3, 56127 Pisa PI, Italy.
-(7)Department of Radiology, University Hospital Basel, Basel, Switzerland; Basel 
-Muscle MRI, Department of Biomedical Engineering, University of Basel, Basel, 
-Switzerland.
-(8)Department of Neurology, Jacobs School of Medicine and Biomedical Sciences, 
-Buffalo Neuroimaging Analysis Center, University of Buffalo, The State 
-University of New York, Buffalo, NY, United State; IRCCS, Fondazione Don Carlo 
-Gnocchi ONLUS, Milan, Italy.
-(9)Neuroncology/Neuroinflammation Unit, IRCCS Mondino Foundation.
-(10)Division of Rheumatology, University and IRCCS Policlinico S. Matteo 
-Foudation, Pavia, Italy.
-(11)Department of Social and Political Science, University of Pavia, Corso Carlo 
-Alberto 3, 27100 Pavia, Italy; BioData Science Center, IRCCS Mondino Foundation, 
-Pavia, Italy.
-(12)Advanced Imaging and Artificial Intelligence Center, Department of 
-Neuroradiology, IRCCS Mondino, Foundation, Via Mondino 2, 27100 Pavia, Italy; 
-Department of Brain and Behavioural Sciences, University of Pavia, Via Mondino 
-2, 27100 Pavia, Italy.
-
-Magnetic Resonance (MR) parameters mapping in muscle Magnetic Resonance Imaging 
+W00034,Myo-regressor Deep Informed Neural NetwOrk (Myo-DINO) for fast MR parameters mapping in neuromuscular disorders,"Barzaghi L, Brero F, Cabini RF, Paoletti M, Monforte M, Lizzi F, Santini F, Deligianni X, Bergsland N, Ravaglia S, Cavagna L, Diamanti L, Bonizzoni C, Lascialfari A, Figini S, Ricci E, Postuma I, Pichiecchio A.",2024,journal,Comput Methods Programs Biomed,,,10.1016/j.cmpb.2024.108399,39236561.0,,,PubMed,"Magnetic Resonance (MR) parameters mapping in muscle Magnetic Resonance Imaging 
 (mMRI) is predominantly performed using pattern recognition-based algorithms, 
 which are characterised by high computational costs and scalability issues in 
 the context of multi-parametric mapping. Deep Learning (DL) has been 
@@ -1589,40 +748,8 @@ incorporates the Extended Phase Graph (EPG) model, provides the most robust and
 relevant physical constraints for Myo-DINO in this multi-parameter regression 
 task. The use of Cycling Loss 2 with self-supervised constraint improved the 
 explainability of the learning process because the network acquired domain 
-knowledge solely in accordance with the assumptions of the EPG model.
-
-Copyright © 2024. Published by Elsevier B.V.
-
-DOI: 10.1016/j.cmpb.2024.108399
-PMID: 39236561 [Indexed for MEDLINE]
-
-Conflict of interest statement: Declaration of competing interest LB, FB, RFC, 
-MP, MM, FL, XD, NB, LC, LD, CB, AL, SF, ER, IP report no conflict of interest 
-related to this study. AP has received honorary as consultant and Advisory Board 
-for Genzyme and Amicus Ther. S.R. has received honorary as consultant and 
-Advisory Board for Genzyme, Amicus Ther and Astellas. FS is a consultant for 
-Roche."
-W00036,Improved unsupervised physics-informed deep learning for intravoxel incoherent motion modeling and evaluation in pancreatic cancer patients,"Kaandorp MPT, Barbieri S, Klaassen R, van Laarhoven HWM, Crezee H, While PT, Nederveen AJ, Gurney-Champion OJ.",2021,journal,Magn Reson Med,,,10.1002/mrm.28852,34105184.0,,,PubMed,"1. Magn Reson Med. 2021 Oct;86(4):2250-2265. doi: 10.1002/mrm.28852. Epub 2021
-Jun  9.
-
-Improved unsupervised physics-informed deep learning for intravoxel incoherent 
-motion modeling and evaluation in pancreatic cancer patients.
-
-Kaandorp MPT(1)(2)(3), Barbieri S(4), Klaassen R(5), van Laarhoven HWM(5), 
-Crezee H(1), While PT(2)(3), Nederveen AJ(1), Gurney-Champion OJ(1).
-
-Author information:
-(1)Department of Radiology and Nuclear Medicine, Cancer Center Amsterdam, 
-Amsterdam UMC, University of Amsterdam, Amsterdam, the Netherlands.
-(2)Department of Radiology and Nuclear Medicine, St. Olav's University Hospital, 
-Trondheim, Norway.
-(3)Department of Circulation and Medical Imaging, NTNU - Norwegian University of 
-Science and Technology, Trondheim, Norway.
-(4)Centre for Big Data Research in Health, UNSW, Sydney, Australia.
-(5)Department of Medical Oncology, Cancer Center Amsterdam, Amsterdam UMC, 
-University of Amsterdam, Amsterdam, the Netherlands.
-
-PURPOSE: Earlier work showed that IVIM-NETorig , an unsupervised 
+knowledge solely in accordance with the assumptions of the EPG model."
+W00036,Improved unsupervised physics-informed deep learning for intravoxel incoherent motion modeling and evaluation in pancreatic cancer patients,"Kaandorp MPT, Barbieri S, Klaassen R, van Laarhoven HWM, Crezee H, While PT, Nederveen AJ, Gurney-Champion OJ.",2021,journal,Magn Reson Med,,,10.1002/mrm.28852,34105184.0,,,PubMed,"PURPOSE: Earlier work showed that IVIM-NETorig , an unsupervised 
 physics-informed deep neural network, was faster and more accurate than other 
 state-of-the-art intravoxel-incoherent motion (IVIM) fitting approaches to 
 diffusion-weighted imaging (DWI). This study presents a substantially improved 
@@ -1650,38 +777,8 @@ with lower wSD for D and f than the alternatives. In the treated cohort,
 IVIM-NEToptim detected the most individual patients with significant parameter 
 changes compared to day-to-day variations.
 CONCLUSION: IVIM-NEToptim is recommended for accurate, informative, and 
-consistent IVIM fitting to DWI data.
-
-© 2021 The Authors. Magnetic Resonance in Medicine published by Wiley 
-Periodicals LLC on behalf of International Society for Magnetic Resonance in 
-Medicine.
-
-DOI: 10.1002/mrm.28852
-PMCID: PMC8362093
-PMID: 34105184 [Indexed for MEDLINE]"
-W00037,Enhanced parameter estimation in multiparametric arterial spin labeling using artificial neural networks,"Ishida S, Fujiwara Y, Matta Y, Takei N, Kanamoto M, Kimura H, Tsujikawa T.",2024,journal,Magn Reson Med,,,10.1002/mrm.30184,38852172.0,,,PubMed,"1. Magn Reson Med. 2024 Nov;92(5):2163-2180. doi: 10.1002/mrm.30184. Epub 2024
-Jun  9.
-
-Enhanced parameter estimation in multiparametric arterial spin labeling using 
-artificial neural networks.
-
-Ishida S(1), Fujiwara Y(2), Matta Y(3), Takei N(4), Kanamoto M(3), Kimura 
-H(5)(6), Tsujikawa T(7).
-
-Author information:
-(1)Department of Radiological Technology, Faculty of Medical Sciences, Kyoto 
-College of Medical Science, Nantan, Japan.
-(2)Department of Medical Image Sciences, Faculty of Life Sciences, Kumamoto 
-University, Kumamoto, Japan.
-(3)Radiological Center, University of Fukui Hospital, Eiheiji, Japan.
-(4)GE HealthCare, Hino, Japan.
-(5)Faculty of Medical Sciences, University of Fukui, Fukui, Japan.
-(6)Radiology Section, National Health Insurance Echizen-cho Ota Hospital, 
-Echizen, Japan.
-(7)Department of Radiology, Faculty of Medical Sciences, University of Fukui, 
-Fukui, Japan.
-
-PURPOSE: Multiparametric arterial spin labeling (MP-ASL) can quantify cerebral 
+consistent IVIM fitting to DWI data."
+W00037,Enhanced parameter estimation in multiparametric arterial spin labeling using artificial neural networks,"Ishida S, Fujiwara Y, Matta Y, Takei N, Kanamoto M, Kimura H, Tsujikawa T.",2024,journal,Magn Reson Med,,,10.1002/mrm.30184,38852172.0,,,PubMed,"PURPOSE: Multiparametric arterial spin labeling (MP-ASL) can quantify cerebral 
 blood flow (CBF) and arterial cerebral blood volume (CBVa). However, its 
 accuracy is compromised owing to its intrinsically low SNR, necessitating 
 complex and time-consuming parameter estimation. Deep neural networks (DNNs) 
@@ -1704,23 +801,8 @@ p = 0.008, Δ = 1.000) than that with LUT (CBF, p = 0.109, Δ = 
 p = 0.008, Δ = 0.929). Moreover, all the methods exhibited comparable and 
 satisfactory reproducibility.
 CONCLUSION: DNNSup outperforms DNNUns and LUT with respect to estimation 
-performance and computation time.
-
-© 2024 The Author(s). Magnetic Resonance in Medicine published by Wiley 
-Periodicals LLC on behalf of International Society for Magnetic Resonance in 
-Medicine.
-
-DOI: 10.1002/mrm.30184
-PMID: 38852172 [Indexed for MEDLINE]"
-W00038,Physics-Informed DeepMRI: k-Space Interpolation Meets Heat Diffusion,"Cui ZX, Liu C, Fan X, Cao C, Cheng J, Zhu Q, Liu Y, Jia S, Wang H, Zhu Y, Zhou Y, Zhang J, Liu Q, Liang D.",2024,journal,IEEE Trans Med Imaging,,,10.1109/tmi.2024.3462988,39292579.0,,,PubMed,"1. IEEE Trans Med Imaging. 2024 Oct;43(10):3503-3520. doi: 
-10.1109/TMI.2024.3462988. Epub 2024 Oct 28.
-
-Physics-Informed DeepMRI: k-Space Interpolation Meets Heat Diffusion.
-
-Cui ZX, Liu C, Fan X, Cao C, Cheng J, Zhu Q, Liu Y, Jia S, Wang H, Zhu Y, Zhou 
-Y, Zhang J, Liu Q, Liang D.
-
-Recently, diffusion models have shown considerable promise for MRI 
+performance and computation time."
+W00038,Physics-Informed DeepMRI: k-Space Interpolation Meets Heat Diffusion,"Cui ZX, Liu C, Fan X, Cao C, Cheng J, Zhu Q, Liu Y, Jia S, Wang H, Zhu Y, Zhou Y, Zhang J, Liu Q, Liang D.",2024,journal,IEEE Trans Med Imaging,,,10.1109/tmi.2024.3462988,39292579.0,,,PubMed,"Recently, diffusion models have shown considerable promise for MRI 
 reconstruction. However, extensive experimentation has revealed that these 
 models are prone to generating artifacts due to the inherent randomness involved 
 in generating images from pure noise. To achieve more controlled image 
@@ -1739,33 +821,8 @@ demonstrates that our approach significantly surpasses traditional k-space
 interpolation methods, deep learning-based k-space interpolation techniques, and 
 conventional diffusion models, particularly in HF regions. Finally, we assess 
 the generalization performance of our model across various out-of-distribution 
-datasets. Our code are available at https://github.com/ZhuoxuCui/Heat-Diffusion.
-
-DOI: 10.1109/TMI.2024.3462988
-PMID: 39292579 [Indexed for MEDLINE]"
-W00040,Classifying Alzheimer's Disease Using a Finite Basis Physics Neural Network,"Dhavamani L, Joshi SV, Kothapalli PKV, Elangovan M, Putchanuthala RB, Senthamil Selvan R.",2025,journal,Microsc Res Tech,,,10.1002/jemt.24727,39704389.0,,,PubMed,"1. Microsc Res Tech. 2025 Apr;88(4):1115-1127. doi: 10.1002/jemt.24727. Epub 2024
- Dec 20.
-
-Classifying Alzheimer's Disease Using a Finite Basis Physics Neural Network.
-
-Dhavamani L(1), Joshi SV(2), Kothapalli PKV(3), Elangovan M(4), Putchanuthala 
-RB(5), Senthamil Selvan R(6).
-
-Author information:
-(1)Department of Information Technology, St Joseph's Institute of Technology, 
-Chennai, Tamil Nadu, India.
-(2)Department of Electronics and Telecommunication Engineering, Nutan 
-Maharashtra Institute of Engineering and Technology, Pune, Maharashtra, India.
-(3)Department of Computer Science and Engineering, Sagi Rama KrishnamRaju 
-Engineering College, Bhimavaram, Andhra Pradesh, India.
-(4)Department of Biosciences, Saveetha School of Engineering, Saveetha Institute 
-of Medical and Technical Sciences, Chennai, Tamil Nadu, India.
-(5)Associate Professor, Department of Computer Science and Engineering, Koneru 
-Lakshmaiah Education Foundation, Hyderabad, India.
-(6)Department of Electronics and Communication Engineering, Annamacharaya 
-Institute of Technology and Sciences, Tirupati, Andhra Pradesh, India.
-
-The disease amyloid plaques, neurofibrillary tangles, synaptic dysfunction, and 
+datasets. Our code are available at https://github.com/ZhuoxuCui/Heat-Diffusion."
+W00040,Classifying Alzheimer's Disease Using a Finite Basis Physics Neural Network,"Dhavamani L, Joshi SV, Kothapalli PKV, Elangovan M, Putchanuthala RB, Senthamil Selvan R.",2025,journal,Microsc Res Tech,,,10.1002/jemt.24727,39704389.0,,,PubMed,"The disease amyloid plaques, neurofibrillary tangles, synaptic dysfunction, and 
 neuronal death gradually accumulate throughout Alzheimer's disease (AD), 
 resulting in cognitive decline and functional disability. The challenges of 
 dataset quality, interpretability, ethical integration, population variety, and 
@@ -1797,32 +854,8 @@ CAD-FBPINN technique is compared to other methods that are currently in use,
 such as AD diagnosis and classification using a convolution neural network 
 algorithm (DC-AD-AlexNet), Predicting diagnosis 4 years before Alzheimer's 
 disease incident (PDP-ADI-GCNN), and Using the DC-AD-AlexNet convolution neural 
-network algorithm, diagnose and classify AD.
-
-© 2024 Wiley Periodicals LLC.
-
-DOI: 10.1002/jemt.24727
-PMID: 39704389 [Indexed for MEDLINE]"
-W00041,Flexible and cost-effective deep learning for accelerated multi-parametric relaxometry using phase-cycled bSSFP,"Birk F, Mahler L, Steiglechner J, Wang Q, Scheffler K, Heule R.",2025,journal,Sci Rep,,,10.1038/s41598-025-88579-z,39924554.0,,,PubMed,"1. Sci Rep. 2025 Feb 9;15(1):4825. doi: 10.1038/s41598-025-88579-z.
-
-Flexible and cost-effective deep learning for accelerated multi-parametric 
-relaxometry using phase-cycled bSSFP.
-
-Birk F(1)(2), Mahler L(3), Steiglechner J(4)(3), Wang Q(3), Scheffler K(4)(3), 
-Heule R(4)(3)(5).
-
-Author information:
-(1)Department of Biomedical Magnetic Resonance, University of Tübingen, 
-Tübingen, Germany. florian.birk@tuebingen.mpg.de.
-(2)High-Field Magnetic Resonance, Max Planck Institute for Biological 
-Cybernetics, Tübingen, Germany. florian.birk@tuebingen.mpg.de.
-(3)High-Field Magnetic Resonance, Max Planck Institute for Biological 
-Cybernetics, Tübingen, Germany.
-(4)Department of Biomedical Magnetic Resonance, University of Tübingen, 
-Tübingen, Germany.
-(5)Center for MR Research, University Children's Hospital, Zurich, Switzerland.
-
-To accelerate the clinical adoption of quantitative magnetic resonance imaging 
+network algorithm, diagnose and classify AD."
+W00041,Flexible and cost-effective deep learning for accelerated multi-parametric relaxometry using phase-cycled bSSFP,"Birk F, Mahler L, Steiglechner J, Wang Q, Scheffler K, Heule R.",2025,journal,Sci Rep,,,10.1038/s41598-025-88579-z,39924554.0,,,PubMed,"To accelerate the clinical adoption of quantitative magnetic resonance imaging 
 (qMRI), frameworks are needed that not only allow for rapid acquisition, but 
 also flexibility, cost efficiency, and high accuracy in parameter mapping. In 
 this study, feed-forward deep neural network (DNN)- and iterative fitting-based 
@@ -1844,36 +877,8 @@ emphasizes the advantages of in silico DNN MP-qMRI pipelines for rapid data
 generation and DNN training without extensive dictionary generation, long 
 parameter inference times, or prolonged data acquisition, highlighting the 
 flexible and rapid nature of lightweight machine learning applications for 
-MP-qMRI.
-
-© 2025. The Author(s).
-
-DOI: 10.1038/s41598-025-88579-z
-PMCID: PMC11808094
-PMID: 39924554 [Indexed for MEDLINE]
-
-Conflict of interest statement: Declarations. Competing Interests: The authors 
-declare no competing interests."
-W00042,Physics-Informed Autoencoder for Prostate Tissue Microstructure Profiling with Hybrid Multidimensional MRI,"Gundogdu B, Chatterjee A, Medved M, Bagci U, Karczmar GS, Oto A.",2025,journal,Radiol Artif Intell,,,10.1148/ryai.240167,39907585.0,,,PubMed,"1. Radiol Artif Intell. 2025 Mar;7(2):e240167. doi: 10.1148/ryai.240167.
-
-Physics-Informed Autoencoder for Prostate Tissue Microstructure Profiling with 
-Hybrid Multidimensional MRI.
-
-Gundogdu B(1)(2), Chatterjee A(1)(2), Medved M(1)(2), Bagci U(3), Karczmar 
-GS(1)(2), Oto A(1)(2).
-
-Author information:
-(1)Department of Radiology, University of Chicago, 5801 S Ellis Ave, Chicago, IL 
-60637.
-(2)Sanford J. Grossman Center of Excellence in Prostate Imaging and Image Guided 
-Therapy, University of Chicago, Chicago, Ill.
-(3)Department of Radiology, Northwestern University Feinberg School of Medicine, 
-Chicago, Ill.
-
-Comment in
-    Radiol Artif Intell. 2025 Mar;7(2):e250016. doi: 10.1148/ryai.250016.
-
-Purpose To evaluate the performance of Physics-Informed Autoencoder (PIA), a 
+MP-qMRI."
+W00042,Physics-Informed Autoencoder for Prostate Tissue Microstructure Profiling with Hybrid Multidimensional MRI,"Gundogdu B, Chatterjee A, Medved M, Bagci U, Karczmar GS, Oto A.",2025,journal,Radiol Artif Intell,,,10.1148/ryai.240167,39907585.0,,,PubMed,"Purpose To evaluate the performance of Physics-Informed Autoencoder (PIA), a 
 self-supervised deep learning model, in measuring tissue-based biomarkers for 
 prostate cancer (PCa) using hybrid multidimensional MRI. Materials and Methods 
 This retrospective study introduces PIA, an emerging self-supervised deep 
@@ -1903,54 +908,8 @@ algorithm. The results demonstrate the potential of PIA as an accurate,
 noninvasive, and explainable artificial intelligence method for PCa detection. 
 Keywords: Prostate, Stacked Auto-Encoders, Tissue Characterization, 
 MR-Diffusion-weighted Imaging Supplemental material is available for this 
-article. ©RSNA, 2025 See also commentary by Adams and Bressem in this issue.
-
-DOI: 10.1148/ryai.240167
-PMCID: PMC11950878
-PMID: 39907585 [Indexed for MEDLINE]
-
-Conflict of interest statement: Disclosures of conflicts of interest: B.G. 
-Support for this work from the National Institutes of Health (NIH) (grant nos. 
-R01CS227036, 1R41CA244056-01A1, R01 CA17280, and 1S10OD018448-01), the Sanford J 
-Grossman Charitable Trust, and the University of Chicago Medicine Comprehensive 
-Cancer Center (grant no. P30 CA014599-37); support for attending the Society of 
-Photographic Instrumentation Engineers Medical Imaging American Association of 
-Physicists in Medicine 2024 Annual Meeting; provisional patent filed by the 
-University of Chicago, titled “Physics-informed deep learning for non-invasive 
-prediction of tissue composition from MRI.” A.C. Co-inventor on a patent 
-applicant for this technology; inventor on assigned patent regarding 
-compartmental analysis of HM-MRI which is related to this work; Quantitative MRI 
-Solutions (QMIS) equity holder (not related to this work). M.M. Grants or 
-contracts from General Electric; provisional patent for “Physics-informed deep 
-learning for non-invasive prediction of tissue composition from MRI.” U.B. 
-Support for the present work from NIH funding (grant nos. R01 CA246704, R01 
-CA240639, U01 DK127384-02S1, and U01 CA268808), paid to author’s institution. 
-G.S.K. Support for the present work from an NIH R01 grant and grants from the 
-Grossman Institute and the University of Chicago Cancer Center, all paid to 
-author’s institution; support from NIH grants and QMIS for a trip to Hawaii to 
-attend the International Society for Magnetic Resonance in Medicine and Society 
-of Abdominal Radiology meetings; part owner of QMIS, which develops methods for 
-prostate cancer detection with MRI; patent pending on the method in this work. 
-A.O. NIH R01 and NIH STTR Phase 2 grants, author is co-principal investigator; 
-consulting fees as member of Profound Healthcare medical advisory board; 
-co-owner of QMIS; associate editor for Radiology."
-W00043,A Physics-Informed Deep Learning Deformable Medical Image Registration Method Based on Neural ODEs,"Amiri-Hezaveh A, Tan S, Deng Q, Umulis D, Cunniff L, Weickenmeier J, Buganza Tepole A.",2025,journal,Int J Comput Vis,,,10.1007/s11263-025-02476-6,40937462.0,,,PubMed,"1. Int J Comput Vis. 2025;133(9):6374-6399. doi: 10.1007/s11263-025-02476-6. Epub
- 2025 Jun 8.
-
-A Physics-Informed Deep Learning Deformable Medical Image Registration Method 
-Based on Neural ODEs.
-
-Amiri-Hezaveh A(1), Tan S(1), Deng Q(1), Umulis D(1), Cunniff L(2), Weickenmeier 
-J(3), Buganza Tepole A(1).
-
-Author information:
-(1)School of Mechanical Engineering, Purdue University, West Lafayette, IN 47907 
-USA.
-(2)Department of Mechanical Engineering, Stevens Institute of Technology, 
-Hoboken, NJ 07030 USA.
-(3)Department of Engineering Science, University of Oxford, Oxford, OX3 7DQ UK.
-
-An unsupervised machine learning method is introduced to align medical images in 
+article. ©RSNA, 2025 See also commentary by Adams and Bressem in this issue."
+W00043,A Physics-Informed Deep Learning Deformable Medical Image Registration Method Based on Neural ODEs,"Amiri-Hezaveh A, Tan S, Deng Q, Umulis D, Cunniff L, Weickenmeier J, Buganza Tepole A.",2025,journal,Int J Comput Vis,,,10.1007/s11263-025-02476-6,40937462.0,,,PubMed,"An unsupervised machine learning method is introduced to align medical images in 
 the context of the large deformation elasticity coupled with growth and 
 remodeling biophysics. The technique, which stems from the principle of minimum 
 potential energy in solid mechanics, consists of two steps: Firstly, in the 
@@ -1976,31 +935,8 @@ volume loss mechanism. For the other, we explore cortical expansion during early
 fetal brain development by coupling the elastic deformation with morphogenetic 
 growth dynamics. The method and examples show the ability of our framework to 
 attain high-quality registration and, concurrently, solve large deformation 
-elasticity balance equations and growth and remodeling dynamics.
-
-© The Author(s) 2025.
-
-DOI: 10.1007/s11263-025-02476-6
-PMCID: PMC12420745
-PMID: 40937462
-
-Conflict of interest statement: Conflicts of InterestThere are no conflicts of 
-interest to declare."
-W00044,A physics-informed deep learning model for MRI brain motion correction,"Safari M, Wang S, Eidex Z, Qiu RLJ, Chang CW, Yu DS, Yang X.",2025,journal,Med Phys,,,10.1002/mp.70197,41395855.0,,,PubMed,"1. Med Phys. 2025 Dec;52(12):e70197. doi: 10.1002/mp.70197.
-
-A physics-informed deep learning model for MRI brain motion correction.
-
-Safari M(1), Wang S(1), Eidex Z(1), Qiu RLJ(1), Chang CW(1), Yu DS(1), Yang 
-X(1).
-
-Author information:
-(1)Department of Radiation Oncology and Winship Cancer Institute, Emory 
-University, Atlanta, Georgia, USA.
-
-Update of
-    ArXiv. 2025 Feb 13:arXiv:2502.09296v1.
-
-BACKGROUND: Magnetic resonance imaging (MRI) is an essential brain imaging tool, 
+elasticity balance equations and growth and remodeling dynamics."
+W00044,A physics-informed deep learning model for MRI brain motion correction,"Safari M, Wang S, Eidex Z, Qiu RLJ, Chang CW, Yu DS, Yang X.",2025,journal,Med Phys,,,10.1002/mp.70197,41395855.0,,,PubMed,"BACKGROUND: Magnetic resonance imaging (MRI) is an essential brain imaging tool, 
 but its long acquisition times make it highly susceptible to motion artifacts 
 that can degrade diagnostic quality.
 PURPOSE: This work aims to develop and evaluate a novel physics-informed motion 
@@ -2045,32 +981,8 @@ information, it enhances image quality and reduces the likelihood of repeat
 imaging sessions due to motion-induced degradation. Its superior performance 
 compared to existing methods underscores its clinical applicability, especially 
 in scenarios where patient motion is inevitable, thus improving patient comfort, 
-diagnostic reliability, and overall treatment planning efficiency.
-
-© 2025 American Association of Physicists in Medicine.
-
-DOI: 10.1002/mp.70197
-PMID: 41395855 [Indexed for MEDLINE]"
-W00045,Self-supervised neural network improves tri-exponential intravoxel incoherent motion model fitting compared to least-squares fitting in non-alcoholic fatty liver disease,"Troelstra MA, Van Dijk AM, Witjes JJ, Mak AL, Zwirs D, Runge JH, Verheij J, Beuers UH, Nieuwdorp M, Holleboom AG, Nederveen AJ, Gurney-Champion OJ.",2022,journal,Front Physiol,,,10.3389/fphys.2022.942495,36148303.0,,,PubMed,"1. Front Physiol. 2022 Sep 6;13:942495. doi: 10.3389/fphys.2022.942495.
-eCollection  2022.
-
-Self-supervised neural network improves tri-exponential intravoxel incoherent 
-motion model fitting compared to least-squares fitting in non-alcoholic fatty 
-liver disease.
-
-Troelstra MA(1), Van Dijk AM(2), Witjes JJ(2), Mak AL(2), Zwirs D(2), Runge 
-JH(1), Verheij J(3), Beuers UH(4), Nieuwdorp M(2), Holleboom AG(2), Nederveen 
-AJ(1), Gurney-Champion OJ(1).
-
-Author information:
-(1)Department of Radiology and Nuclear Medicine, Amsterdam UMC, Amsterdam, 
-Netherlands.
-(2)Department of Vascular Medicine, Amsterdam UMC, Amsterdam, Netherlands.
-(3)Department of Pathology, Amsterdam UMC, Amsterdam, Netherlands.
-(4)Department of Gastroenterology and Hepatology, Amsterdam UMC, Amsterdam, 
-Netherlands.
-
-Recent literature suggests that tri-exponential models may provide additional 
+diagnostic reliability, and overall treatment planning efficiency."
+W00045,Self-supervised neural network improves tri-exponential intravoxel incoherent motion model fitting compared to least-squares fitting in non-alcoholic fatty liver disease,"Troelstra MA, Van Dijk AM, Witjes JJ, Mak AL, Zwirs D, Runge JH, Verheij J, Beuers UH, Nieuwdorp M, Holleboom AG, Nederveen AJ, Gurney-Champion OJ.",2022,journal,Front Physiol,,,10.3389/fphys.2022.942495,36148303.0,,,PubMed,"Recent literature suggests that tri-exponential models may provide additional 
 information and fit liver intravoxel incoherent motion (IVIM) data more 
 accurately than conventional bi-exponential models. However, voxel-wise fitting 
 of IVIM results in noisy and unreliable parameter maps. For bi-exponential IVIM, 
@@ -2096,39 +1008,8 @@ NN outperformed both LSQ models for the majority of IVIM parameters (10 out of
 tri-exponential IVIM model in NAFLD. We show that the IVIM3-NET can be used to 
 improve image quality compared to a tri-exponential LSQ fit and provides 
 promising correlations with histopathology similar to the bi-exponential neural 
-network fit, while generating potentially complementary additional parameters.
-
-Copyright © 2022 Troelstra, Van Dijk, Witjes, Mak, Zwirs, Runge, Verheij, 
-Beuers, Nieuwdorp, Holleboom, Nederveen and Gurney-Champion.
-
-DOI: 10.3389/fphys.2022.942495
-PMCID: PMC9485997
-PMID: 36148303
-
-Conflict of interest statement: The authors declare that the research was 
-conducted in the absence of any commercial or financial relationships that could 
-be construed as a potential conflict of interest."
-W00046,Improved pharmacokinetic parameter estimation from DCE-MRI via spatial-temporal information-driven unsupervised learning,"He X, Wang L, Yang Q, Wang J, Xing Z, Cao D, Cai C, Cai S.",2025,journal,Phys Med Biol,,,10.1088/1361-6560/ae0aaf,40987314.0,,,PubMed,"1. Phys Med Biol. 2025 Oct 7;70(20). doi: 10.1088/1361-6560/ae0aaf.
-
-Improved pharmacokinetic parameter estimation from DCE-MRI via spatial-temporal 
-information-driven unsupervised learning.
-
-He X(1), Wang L(2), Yang Q(2), Wang J(3), Xing Z(4), Cao D(4), Cai C(2), Cai 
-S(2).
-
-Author information:
-(1)Institute of Artificial Intelligence, Xiamen University, Xiamen, Fujian 
-361102, People's Republic of China.
-(2)Department of Electronic Science, Fujian Provincial Key Laboratory of Plasma 
-and Magnetic Resonance, Xiamen University, Xiamen, Fujian 361102, People's 
-Republic of China.
-(3)School of Ocean Information Engineering, Fujian Provincial Key Laboratory of 
-Oceanic Information Perception and Intelligent Processing, Jimei University, 
-Xiamen 361021, People's Republic of China.
-(4)Department of Radiology, First Affiliated Hospital of Fujian Medical 
-University, Fuzhou, Fujian 350005, People's Republic of China.
-
-Objective.Pharmacokinetic (PK) parameters derived from dynamic contrast-enhanced 
+network fit, while generating potentially complementary additional parameters."
+W00046,Improved pharmacokinetic parameter estimation from DCE-MRI via spatial-temporal information-driven unsupervised learning,"He X, Wang L, Yang Q, Wang J, Xing Z, Cao D, Cai C, Cai S.",2025,journal,Phys Med Biol,,,10.1088/1361-6560/ae0aaf,40987314.0,,,PubMed,"Objective.Pharmacokinetic (PK) parameters derived from dynamic contrast-enhanced 
 magnetic resonance imaging (DCE-MRI) provide quantitative characterization of 
 tissue perfusion and permeability. However, existing deep learning methods for 
 PK parameter estimation rely on either temporal or spatial features alone, 
@@ -2157,50 +1038,8 @@ isocitrate dehydrogenase mutation status, achieving the area under the curve
 ofKtransand Ve, respectively. A combination of all PK parameters improved AUC to 
 0.926.Significance.STUDE advances spatial-temporal information-driven and 
 physics-informed learning for precise PK parameter estimation, demonstrating its 
-potential clinical significance.
-
-© 2025 Institute of Physics and Engineering in Medicine. All rights, including 
-for text and data mining, AI training, and similar technologies, are reserved.
-
-DOI: 10.1088/1361-6560/ae0aaf
-PMID: 40987314 [Indexed for MEDLINE]"
-W00047,Rapid spatio-temporal MR fingerprinting using physics-informed implicit neural representation,"Gong C, Zou L, Li P, Wu X, Qiao Y, Hu Z, Wang X, Zhou Y, Wang K, Hu Y, Wang H.",2026,journal,Med Image Anal,,,10.1016/j.media.2026.103935,41544325.0,,,PubMed,"1. Med Image Anal. 2026 Mar;109:103935. doi: 10.1016/j.media.2026.103935. Epub
-2026  Jan 8.
-
-Rapid spatio-temporal MR fingerprinting using physics-informed implicit neural 
-representation.
-
-Gong C(1), Zou L(2), Li P(1), Wu X(2), Qiao Y(3), Hu Z(4), Wang X(5), Zhou Y(6), 
-Wang K(3), Hu Y(7), Wang H(8).
-
-Author information:
-(1)The School of Electronics and Information Engineering, Harbin Institute of 
-Technology,Harbin, Heilongjiang, China.
-(2)Paul C. Lauterbur Research Center for Biomedical Imaging, Shenzhen Institutes 
-of Advanced Technology, Chinese Academy of Sciences,Shenzhen, Guangdong,China.
-(3)Shenzhen United Imaging Healthcare Co., Ltd,Shenzhen, Guangdong,China.
-(4)Shenzhen University of Advanced Technology,Shenzhen, Guangdong,China; The 
-Department of Pediatrics, Shenzhen University of Advanced Technology General 
-Hospital,Shenzhen, Guangdong,China.
-(5)The Department of Engineering, Yuxi Normal University,Yuxi, Yunnan,China.
-(6)Paul C. Lauterbur Research Center for Biomedical Imaging, Shenzhen Institutes 
-of Advanced Technology, Chinese Academy of Sciences,Shenzhen, Guangdong,China; 
-Shenzhen University of Advanced Technology,Shenzhen, Guangdong,China; University 
-of Chinese Academy of Sciences, Beijing,China; State Key Laboratory of 
-Biomedical Imaging Science and System,Shenzhen, Guangdong,China; Key Laboratory 
-of Biomedical Imaging Science and System, Chinese Academy of Sciences,Shenzhen, 
-Guangdong,China.
-(7)The School of Electronics and Information Engineering, Harbin Institute of 
-Technology,Harbin, Heilongjiang, China. Electronic address: huyue@hit.edu.cn.
-(8)Paul C. Lauterbur Research Center for Biomedical Imaging, Shenzhen Institutes 
-of Advanced Technology, Chinese Academy of Sciences,Shenzhen, Guangdong,China; 
-Shenzhen University of Advanced Technology,Shenzhen, Guangdong,China; University 
-of Chinese Academy of Sciences, Beijing,China; State Key Laboratory of 
-Biomedical Imaging Science and System,Shenzhen, Guangdong,China; Key Laboratory 
-of Biomedical Imaging Science and System, Chinese Academy of Sciences,Shenzhen, 
-Guangdong,China. Electronic address: hf.wang1@siat.ac.cn.
-
-The potential of Magnetic Resonance Fingerprinting (MRF), which allows for rapid 
+potential clinical significance."
+W00047,Rapid spatio-temporal MR fingerprinting using physics-informed implicit neural representation,"Gong C, Zou L, Li P, Wu X, Qiao Y, Hu Z, Wang X, Zhou Y, Wang K, Hu Y, Wang H.",2026,journal,Med Image Anal,,,10.1016/j.media.2026.103935,41544325.0,,,PubMed,"The potential of Magnetic Resonance Fingerprinting (MRF), which allows for rapid 
 and simultaneous multi-parametric quantitative MRI, is often limited by severe 
 aliasing artifacts caused by aggressive undersampling. Conventional MRF 
 approaches typically treat these artifacts as detrimental noise and focus on 
@@ -2220,111 +1059,8 @@ regularization is developed to improve the robustness of CSM estimation in
 highly undersampled scenarios. Experimental results on simulated, phantom, and 
 in vivo datasets demonstrate that πMRF achieves improved quantitative accuracy 
 and robustness even under highly accelerated acquisitions, outperforming 
-state-of-the-art MRF methods.
-
-Copyright © 2026 Elsevier B.V. All rights reserved.
-
-DOI: 10.1016/j.media.2026.103935
-PMID: 41544325 [Indexed for MEDLINE]
-
-Conflict of interest statement: Declaration of competing interest The authors 
-declare the following financial interests/personal relationships which may be 
-considered as potential competing interests: Yue Hu reports financial support 
-was provided by the National Natural Science Foundation of China. Yue Hu reports 
-financial support was provided by the Natural Science Foundation of Heilongjiang 
-Province. Haifeng Wang reports financial support was provided by the National 
-Key Technology Research and Development Program of China. Haifeng Wang reports 
-financial support was provided by the National Natural Science Foundation of 
-China. Haifeng Wang reports financial support was provided by the International 
-Partnership Program of Chinese Academy of Sciences. Haifeng Wang reports 
-financial support was provided by the Strategic Priority Research Program of 
-Chinese Academy of Sciences. Haifeng Wang reports financial support was provided 
-by the CAS Superconducting Research Project. Haifeng Wang reports financial 
-support was provided by the Key Laboratory for Magnetic Resonance and 
-Multimodality Imaging of Guangdong Province. Haifeng Wang reports financial 
-support was provided by the Guangdong Provincial Key Laboratory of Multimodality 
-Non-Invasive Brain-Computer Interfaces. Haifeng Wang reports financial support 
-was provided by the Guangdong Basic and Applied Basic Research Foundation. 
-Haifeng Wang reports financial support was provided by the Shenzhen Science and 
-Technology Program. Haifeng Wang reports financial support was provided by the 
-Shenzhen Key Laboratory of Ultrasound Imaging and Therapy. Lixian Zou reports 
-financial support was provided by the National Natural Science Foundation of 
-China. Peng Li reports financial support was provided by the National Natural 
-Science Foundation of China. Zhanqi Hu reports financial support was provided by 
-the Sanming Project of Medicine in Shenzhen Guangming. Xiaoyan Wang reports 
-financial support was provided by the Joint Special Fund for Local Universities 
-in Yunnan Science and Technology Department. Yihang Zhou reports financial 
-support was provided by the Shenzhen Science and Technology Program. Yangzi Qiao 
-reports a relationship with United Imaging Healthcare Co., Ltd. that includes: 
-employment. Kai Wang reports a relationship with United Imaging Healthcare Co., 
-Ltd. that includes: employment. If there are other authors, they declare that 
-they have no known competing financial interests or personal relationships that 
-could have appeared to influence the work reported in this paper."
-W00049,One for multiple: Physics-informed synthetic data boosts generalizable deep learning for fast MRI reconstruction,"Wang Z, Yu X, Wang C, Chen W, Wang J, Chu YH, Sun H, Li R, Li P, Yang F, Han H, Kang T, Lin J, Yang C, Chang S, Shi Z, Hua S, Li Y, Hu J, Zhu L, Zhou J, Lin M, Guo J, Cai C, Chen Z, Guo D, Yang G, Qu X.",2025,journal,Med Image Anal,,,10.1016/j.media.2025.103616,40279827.0,,,PubMed,"1. Med Image Anal. 2025 Jul;103:103616. doi: 10.1016/j.media.2025.103616. Epub
-2025  Apr 20.
-
-One for multiple: Physics-informed synthetic data boosts generalizable deep 
-learning for fast MRI reconstruction.
-
-Wang Z(1), Yu X(2), Wang C(3), Chen W(4), Wang J(4), Chu YH(5), Sun H(6), Li 
-R(7), Li P(8), Yang F(9), Han H(9), Kang T(10), Lin J(10), Yang C(11), Chang 
-S(12), Shi Z(13), Hua S(14), Li Y(15), Hu J(16), Zhu L(17), Zhou J(17), Lin 
-M(18), Guo J(19), Cai C(2), Chen Z(2), Guo D(20), Yang G(21), Qu X(22).
-
-Author information:
-(1)Department of Electronic Science, Xiamen University-Neusoft Medical Magnetic 
-Resonance Imaging Joint Research and Development Center, Fujian Provincial Key 
-Laboratory of Plasma and Magnetic Resonance, National Institute for Data Science 
-in Health and Medicine, Xiamen University, China; Department of Bioengineering 
-and Imperial-X, Imperial College London, United Kingdom.
-(2)Department of Electronic Science, Xiamen University-Neusoft Medical Magnetic 
-Resonance Imaging Joint Research and Development Center, Fujian Provincial Key 
-Laboratory of Plasma and Magnetic Resonance, National Institute for Data Science 
-in Health and Medicine, Xiamen University, China.
-(3)Shanghai Pudong Hospital and Human Phenome Institute, Fudan University, 
-China; International Human Phenome Institute (Shanghai), China.
-(4)Philips Healthcare, China.
-(5)Siemens Healthineers Ltd., China.
-(6)United Imaging Research Institute of Intelligent Imaging, China.
-(7)Department of Nuclear Medicine, Nanjing First Hospital, China.
-(8)Shandong Aoxin Medical Technology Company, China.
-(9)Department of Radiology, The First Affiliated Hospital of Xiamen University, 
-China.
-(10)Department of Radiology, Zhongshan Hospital Affiliated to Xiamen University, 
-China.
-(11)Department of Neurosurgery, Zhongshan Hospital, Fudan University (Xiamen 
-Branch), China.
-(12)Department of Cardiology, Shanghai Institute of Cardiovascular Diseases, 
-Zhongshan Hospital, Fudan University, China.
-(13)Department of Radiology, Zhongshan Hospital, Fudan University, China.
-(14)Department of Cardiovascular Medicine, Heart Failure Center, Ruijin Hospital 
-Lu Wan Branch, Shanghai Jiaotong University School of Medicine, China.
-(15)Department of Radiology, Ruijin Hospital, Shanghai Jiaotong University 
-School of Medicine, China.
-(16)Medical Imaging Department, The First Affiliated Hospital of Kunming Medical 
-University, China.
-(17)Department of Radiology, Zhongshan Hospital, Fudan University (Xiamen 
-Branch), Fujian Province Key Clinical Specialty Construction Project (Medical 
-Imaging Department), Xiamen Key Laboratory of Clinical Transformation of Imaging 
-Big Data and Artificial Intelligence, China.
-(18)Department of Applied Marine Physics and Engineering, Xiamen University, 
-China.
-(19)Department of Microelectronics and Integrated Circuit, Xiamen University, 
-China.
-(20)School of Computer and Information Engineering, Xiamen University of 
-Technology, China.
-(21)Department of Bioengineering and Imperial-X, Imperial College London, United 
-Kingdom; National Heart and Lung Institute, Imperial College London, United 
-Kingdom; Cardiovascular Research Centre, Royal Brompton Hospital, United 
-Kingdom; School of Biomedical Engineering & Imaging Sciences, King's College 
-London, United Kingdom.
-(22)Department of Electronic Science, Xiamen University-Neusoft Medical Magnetic 
-Resonance Imaging Joint Research and Development Center, Fujian Provincial Key 
-Laboratory of Plasma and Magnetic Resonance, National Institute for Data Science 
-in Health and Medicine, Xiamen University, China. Electronic address: 
-quxiaobo@xmu.edu.cn.
-
-Magnetic resonance imaging (MRI) is a widely used radiological modality renowned 
+state-of-the-art MRF methods."
+W00049,One for multiple: Physics-informed synthetic data boosts generalizable deep learning for fast MRI reconstruction,"Wang Z, Yu X, Wang C, Chen W, Wang J, Chu YH, Sun H, Li R, Li P, Yang F, Han H, Kang T, Lin J, Yang C, Chang S, Shi Z, Hua S, Li Y, Hu J, Zhu L, Zhou J, Lin M, Guo J, Cai C, Chen Z, Guo D, Yang G, Qu X.",2025,journal,Med Image Anal,,,10.1016/j.media.2025.103616,40279827.0,,,PubMed,"Magnetic resonance imaging (MRI) is a widely used radiological modality renowned 
 for its radiation-free, comprehensive insights into the human body, facilitating 
 medical diagnoses. However, the drawback of prolonged scan times hinders its 
 accessibility. The k-space undersampling offers a solution, yet the resultant 
@@ -2349,68 +1085,8 @@ exhibiting remarkable generalizability. Its adaptability to 2 neuro and 2
 cardiovascular patient populations has been validated through evaluations by 10 
 experienced medical professionals. In summary, PISF presents a feasible and 
 cost-effective way to significantly boost the widespread adoption of DL in 
-various fast MRI applications.
-
-Copyright © 2025 Elsevier B.V. All rights reserved.
-
-DOI: 10.1016/j.media.2025.103616
-PMID: 40279827 [Indexed for MEDLINE]
-
-Conflict of interest statement: Declaration of competing interest The authors 
-declare that they have no known competing financial interests or personal 
-relationships that could have appeared to influence the work reported in this 
-paper."
-W00052,ElasticMorph: Plug-and-play second-order elastic regularization for medical image registration,"Lin Z, Jiang S, Zhou Z, Yang Z, Li Y.",2026,journal,Comput Methods Programs Biomed,,,10.1016/j.cmpb.2025.109182,41330093.0,,,PubMed,"1. Comput Methods Programs Biomed. 2026 Feb;275:109182. doi: 
-10.1016/j.cmpb.2025.109182. Epub 2025 Nov 27.
-
-ElasticMorph: Plug-and-play second-order elastic regularization for medical 
-image registration.
-
-Lin Z(1), Jiang S(2), Zhou Z(3), Yang Z(4), Li Y(5).
-
-Author information:
-(1)Mechanical Engineering Department, Tianjin University, No. 135, Yaguan Road, 
-Haihe Education Park, Jinnan District, 300350, Tianjin, China; Key Laboratory of 
-Mechanism Theory and Equipment Design of Ministry of Education (Tianjin 
-University), No. 135, Yaguan Road, Haihe Education Park, Jinnan District, 
-300350, Tianjin, China; Tianjin Key Laboratory of Equipment Design and 
-Manufacturing Technology (Tianjin University), No. 135, Yaguan Road, Haihe 
-Education Park, Jinnan District, 300350, Tianjin, China. Electronic address: 
-zhaoxilin@tju.edu.cn.
-(2)Mechanical Engineering Department, Tianjin University, No. 135, Yaguan Road, 
-Haihe Education Park, Jinnan District, 300350, Tianjin, China; Key Laboratory of 
-Mechanism Theory and Equipment Design of Ministry of Education (Tianjin 
-University), No. 135, Yaguan Road, Haihe Education Park, Jinnan District, 
-300350, Tianjin, China; Tianjin Key Laboratory of Equipment Design and 
-Manufacturing Technology (Tianjin University), No. 135, Yaguan Road, Haihe 
-Education Park, Jinnan District, 300350, Tianjin, China. Electronic address: 
-shanjmri@tju.edu.cn.
-(3)Mechanical Engineering Department, Tianjin University, No. 135, Yaguan Road, 
-Haihe Education Park, Jinnan District, 300350, Tianjin, China; Key Laboratory of 
-Mechanism Theory and Equipment Design of Ministry of Education (Tianjin 
-University), No. 135, Yaguan Road, Haihe Education Park, Jinnan District, 
-300350, Tianjin, China; Tianjin Key Laboratory of Equipment Design and 
-Manufacturing Technology (Tianjin University), No. 135, Yaguan Road, Haihe 
-Education Park, Jinnan District, 300350, Tianjin, China. Electronic address: 
-zzytju@tju.edu.cn.
-(4)Mechanical Engineering Department, Tianjin University, No. 135, Yaguan Road, 
-Haihe Education Park, Jinnan District, 300350, Tianjin, China; Key Laboratory of 
-Mechanism Theory and Equipment Design of Ministry of Education (Tianjin 
-University), No. 135, Yaguan Road, Haihe Education Park, Jinnan District, 
-300350, Tianjin, China; Tianjin Key Laboratory of Equipment Design and 
-Manufacturing Technology (Tianjin University), No. 135, Yaguan Road, Haihe 
-Education Park, Jinnan District, 300350, Tianjin, China. Electronic address: 
-meyang@tju.edu.cn.
-(5)Mechanical Engineering Department, Tianjin University, No. 135, Yaguan Road, 
-Haihe Education Park, Jinnan District, 300350, Tianjin, China; Key Laboratory of 
-Mechanism Theory and Equipment Design of Ministry of Education (Tianjin 
-University), No. 135, Yaguan Road, Haihe Education Park, Jinnan District, 
-300350, Tianjin, China; Tianjin Key Laboratory of Equipment Design and 
-Manufacturing Technology (Tianjin University), No. 135, Yaguan Road, Haihe 
-Education Park, Jinnan District, 300350, Tianjin, China. Electronic address: 
-lvlua@tju.edu.cn.
-
-BACKGROUND AND OBJECTIVE: Deformable image registration is crucial for many 
+various fast MRI applications."
+W00052,ElasticMorph: Plug-and-play second-order elastic regularization for medical image registration,"Lin Z, Jiang S, Zhou Z, Yang Z, Li Y.",2026,journal,Comput Methods Programs Biomed,,,10.1016/j.cmpb.2025.109182,41330093.0,,,PubMed,"BACKGROUND AND OBJECTIVE: Deformable image registration is crucial for many 
 clinical applications, but current learning-based methods often rely on simple 
 smoothness losses. This can produce physically implausible deformations, such as 
 tissue folding, and creates a trade-off between registration accuracy and 
@@ -2443,43 +1119,8 @@ regularizers. ElasticMorph provides a practical, principled, and plug-and-play
 solution for developing more accurate and physically plausible registration 
 models, holding significant potential for improving the reliability of 
 downstream biomedical image analysis tasks. The code will be made publicly 
-available.
-
-Copyright © 2025 Elsevier B.V. All rights reserved.
-
-DOI: 10.1016/j.cmpb.2025.109182
-PMID: 41330093 [Indexed for MEDLINE]
-
-Conflict of interest statement: Declaration of competing interest The authors 
-declare that they have no known competing financial interests or personal 
-relationships that could have appeared to influence the work reported in this 
-paper."
-W00053,Motion-robust T2∗ quantification from low-resolution gradient echo brain MRI with physics-informed deep learning,"Eichhorn H, Spieker V, Hammernik K, Saks E, Felsner L, Weiss K, Preibisch C, Schnabel JA.",2026,journal,Magn Reson Med,,,10.1002/mrm.70050,40843481.0,,,PubMed,"1. Magn Reson Med. 2026 Jan;95(1):346-362. doi: 10.1002/mrm.70050. Epub 2025 Aug 
-22.
-
-Motion-robust T2∗ quantification from low-resolution gradient echo brain MRI 
-with physics-informed deep learning.
-
-Eichhorn H(1)(2), Spieker V(1)(2), Hammernik K(2), Saks E(3)(4), Felsner L(2), 
-Weiss K(5), Preibisch C(3)(4)(6), Schnabel JA(1)(2)(7).
-
-Author information:
-(1)Institute of Machine Learning in Biomedical Imaging, Helmholtz Munich, 
-Neuherberg, Germany.
-(2)School of Computation, Information & Technology, Technical University of 
-Munich, Munich, Germany.
-(3)Department of Diagnostic and Interventional Neuroradiology, School of 
-Medicine & Health, TUM Klinikum Rechts der Isar, Technical University of Munich, 
-Munich, Germany.
-(4)TUM-Neuroimaging Center, School of Medicine & Health, TUM Klinikum Rechts der 
-Isar, Technical University of Munich, Munich, Germany.
-(5)Philips GmbH Market DACH, Hamburg, Germany.
-(6)Clinic of Neurology, School of Medicine & Health, TUM Klinikum Rechts der 
-Isar, Technical University of Munich, Munich, Germany.
-(7)School of Biomedical Engineering & Imaging Sciences, King's College, London, 
-UK.
-
-PURPOSE: T2∗ quantification from gradient echo magnetic resonance imaging is 
+available."
+W00053,Motion-robust T2∗ quantification from low-resolution gradient echo brain MRI with physics-informed deep learning,"Eichhorn H, Spieker V, Hammernik K, Saks E, Felsner L, Weiss K, Preibisch C, Schnabel JA.",2026,journal,Magn Reson Med,,,10.1002/mrm.70050,40843481.0,,,PubMed,"PURPOSE: T2∗ quantification from gradient echo magnetic resonance imaging is 
 particularly affected by subject motion due to its high sensitivity to magnetic 
 field inhomogeneities, which are influenced by motion and might cause signal 
 loss. Thus, motion correction is crucial to obtain high-quality T2∗ maps.
@@ -2498,38 +1139,8 @@ relies on redundant data acquisition.
 CONCLUSION: PHIMO+'s competitive motion correction performance, combined with a 
 reduction in acquisition time by over 40% compared to the state-of-the-art 
 method, makes it a promising solution for motion-robust T2∗ quantification in 
-research settings and clinical routine.
-
-© 2025 The Author(s). Magnetic Resonance in Medicine published by Wiley 
-Periodicals LLC on behalf of International Society for Magnetic Resonance in 
-Medicine.
-
-DOI: 10.1002/mrm.70050
-PMCID: PMC12620166
-PMID: 40843481 [Indexed for MEDLINE]
-
-Conflict of interest statement: Kilian Weiss is an employee of Philips GmbH 
-Market DACH."
-W00054,A network-assisted joint image and motion estimation approach for robust 3D MRI motion correction across severity levels,"Nghiem B, Wu Z, Kashyap S, Kasper L, Uludağ K.",2026,journal,Magn Reson Med,,,10.1002/mrm.70052,40883879.0,,,PubMed,"1. Magn Reson Med. 2026 Jan;95(1):363-381. doi: 10.1002/mrm.70052. Epub 2025 Aug 
-29.
-
-A network-assisted joint image and motion estimation approach for robust 3D MRI 
-motion correction across severity levels.
-
-Nghiem B(1)(2), Wu Z(1), Kashyap S(1), Kasper L(1)(3), Uludağ K(1)(2)(4)(5).
-
-Author information:
-(1)Krembil Brain Institute, University Health Network, Toronto, Ontario, Canada.
-(2)Department of Medical Biophysics, University of Toronto, Toronto, Ontario, 
-Canada.
-(3)Toronto Neuroimaging Facility, Department of Psychology, University of 
-Toronto, Toronto, Ontario, Canada.
-(4)Physical Sciences, Sunnybrook Research Institute, Toronto, Ontario, Canada.
-(5)Center for Neuroscience Imaging Research, Institute for Basic Science and 
-Department of Biomedical Engineering, Sungkyunkwan University, Suwon, Republic 
-of Korea.
-
-PURPOSE: The purpose of this work was to develop and evaluate a novel method 
+research settings and clinical routine."
+W00054,A network-assisted joint image and motion estimation approach for robust 3D MRI motion correction across severity levels,"Nghiem B, Wu Z, Kashyap S, Kasper L, Uludağ K.",2026,journal,Magn Reson Med,,,10.1002/mrm.70052,40883879.0,,,PubMed,"PURPOSE: The purpose of this work was to develop and evaluate a novel method 
 that leverages neural networks and physical modeling for 3D motion correction at 
 different levels of corruption.
 METHODS: The novel method (""UNet+JE"") combines an existing neural network 
@@ -2551,18 +1162,7 @@ for the simulation and in vivo studies, respectively.
 CONCLUSIONS: UNet+JE benefitted from the robustness of joint estimation and the 
 fast image improvement provided by the neural network, enabling the method to 
 provide high quality 3D image correction under a wide range of motion corruption 
-within shorter runtimes.
-
-© 2025 The Author(s). Magnetic Resonance in Medicine published by Wiley 
-Periodicals LLC on behalf of International Society for Magnetic Resonance in 
-Medicine.
-
-DOI: 10.1002/mrm.70052
-PMCID: PMC12620172
-PMID: 40883879 [Indexed for MEDLINE]
-
-Conflict of interest statement: Z.W. now works for Siemens Healthineers, 
-Oakville, ON, Canada."
+within shorter runtimes."
 W00085,"Input parameterized physics informed neural networks for de noising, super-resolution, and imaging artifact mitigation in time resolved three dimensional phase-contrast magnetic resonance imaging",,2025,journal,Engineering Applications of Artificial Intelligence,150,,10.1016/j.engappai.2025.110600,,,,Scopus,"Motivation:
 Hemodynamic analysis is crucial for diagnosing and predicting cardiovascular diseases. However, methods relying on fluid flow simulations or blood flow imaging are complex, time-consuming, and require specialized expertise, limiting their clinical use.
 Goal:

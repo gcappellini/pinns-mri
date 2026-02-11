@@ -1,0 +1,63 @@
+Based on the abstracts provided in `PINN_MRI_master.csv`, I have identified which works explicitly mention the availability of source code.
+
+Here is the CSV file containing the work ID, a binary indicator of code availability (`code_available`), and the link or statement found in the abstract (`code_link_or_note`).
+
+```csv
+work_id,code_available,code_link_or_note
+W00001,0,
+W00003,0,
+W00004,0,
+W00005,0,
+W00006,1,"https://github.com/fsahli/WarpPINN"
+W00007,0,
+W00008,0,
+W00009,0,
+W00010,0,
+W00011,0,
+W00012,0,
+W00014,0,
+W00015,0,
+W00016,0,
+W00018,0,
+W00019,0,
+W00020,0,
+W00021,0,
+W00022,0,
+W00023,0,
+W00024,0,
+W00025,0,
+W00026,0,
+W00027,0,
+W00028,1,"https://github.com/cgalaz01/supinn"
+W00029,0,"Supplemental material available (code not explicitly linked in abstract)"
+W00030,0,
+W00031,0,
+W00032,0,
+W00033,0,
+W00034,0,
+W00036,0,
+W00037,0,
+W00038,1,"https://github.com/ZhuoxuCui/Heat-Diffusion"
+W00040,0,"Mentions implementation in Python but no link provided"
+W00041,0,
+W00042,0,
+W00043,0,
+W00044,0,
+W00045,0,
+W00046,0,
+W00047,0,
+W00049,0,
+W00052,1,"The code will be made publicly available (no link in abstract)"
+W00053,0,
+W00054,0,
+W00085,0,
+W00086,0,
+W00087,0,
+W00109,0,
+W00110,0,
+```
+
+**Key findings:**
+*   **Explicit Links:** Only **W00006**, **W00028**, and **W00038** provide direct GitHub links in their abstracts.
+*   **Promised Code:** **W00052** explicitly states "The code will be made publicly available," though no URL is present in the abstract text.
+*   **No Mention:** The majority of the abstracts do not explicitly state that the code is open source or provide a URL, although some mention using standard frameworks (Python, etc.) or having supplemental material.
