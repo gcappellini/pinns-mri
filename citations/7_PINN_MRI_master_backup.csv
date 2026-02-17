@@ -1,63 +1,7 @@
 work_id,title,authors,year,publication_type,venue,volume,issue,doi,pmid,arxiv_id,ieee_doc_id,source_dbs,abstract
-W00001,Physics-informed neural networks for myocardial perfusion MRI quantification,"van Herten RLM, Chiribiri A, Breeuwer M, Veta M, Scannell CM.",2022,journal,Med Image Anal,,,10.1016/j.media.2022.102399,35299005.0,,,PubMed,"Tracer-kinetic models allow for the quantification of kinetic parameters such as 
-blood flow from dynamic contrast-enhanced magnetic resonance (MR) images. 
-Fitting the observed data with multi-compartment exchange models is desirable, 
-as they are physiologically plausible and resolve directly for blood flow and 
-microvascular function. However, the reliability of model fitting is limited by 
-the low signal-to-noise ratio, temporal resolution, and acquisition length. This 
-may result in inaccurate parameter estimates. This study introduces 
-physics-informed neural networks (PINNs) as a means to perform myocardial 
-perfusion MR quantification, which provides a versatile scheme for the inference 
-of kinetic parameters. These neural networks can be trained to fit the observed 
-perfusion MR data while respecting the underlying physical conservation laws 
-described by a multi-compartment exchange model. Here, we provide a framework 
-for the implementation of PINNs in myocardial perfusion MR. The approach is 
-validated both in silico and in vivo. In the in silico study, an overall 
-decrease in mean-squared error with the ground-truth parameters was observed 
-compared to a standard non-linear least squares fitting approach. The in vivo 
-study demonstrates that the method produces parameter values comparable to those 
-previously found in literature, as well as providing parameter maps which match 
-the clinical diagnosis of patients."
-W00003,Flow-Rate-Constrained Physics-Informed Neural Networks for Flow Field Error Correction in 4-D Flow Magnetic Resonance Imaging,"Kang J, Jung EC, Koo HJ, Yang DH, Ha H.",2025,journal,IEEE Trans Med Imaging,,,10.1109/tmi.2025.3587636,40638348.0,,,PubMed,"In this study, we present enhanced physics-informed neural networks (PINNs), 
-which were designed to address flow field errors in four-dimensional flow 
-magnetic resonance imaging (4D Flow MRI). Flow field errors, typically occurring 
-in high-velocity regions, lead to inaccuracies in velocity fields and flow rate 
-underestimation. We proposed incorporating flow rate constraints to ensure 
-physical consistency across cross-sections. The proposed framework included 
-optimization strategies to improve convergence, stability, and accuracy. 
-Artificial viscosity modeling, projecting conflicting gradients (PCGrad), and 
-Euclidean norm scaling were applied to balance loss functions during training. 
-The performance was validated using 2D computational fluid dynamics (CFD) with 
-synthetic error, in-vitro 4D flow MRI mimicking aortic valve, and in-vivo 4D 
-flow MRI from patients with aortic regurgitation and aortic stenosis. This study 
-demonstrated considerable improvements in correcting flow field errors, 
-denoising, and super-resolution. Notably, the proposed PINNs provided accurate 
-flow rate reconstruction in stenotic and high-velocity regions. This approach 
-extends the applicability of 4D flow MRI by providing reliable hemodynamics in 
-the post-processing stage."
-W00004,Magnetic Resonance Electrical Properties Tomography Based on Modified Physics- Informed Neural Network and Multiconstraints,"Ruan G, Wang Z, Liu C, Xia L, Wang H, Qi L, Chen W.",2024,journal,IEEE Trans Med Imaging,,,10.1109/tmi.2024.3391651,38640054.0,,,PubMed,"This paper presents a novel method based on leveraging physics-informed neural 
-networks for magnetic resonance electrical property tomography (MREPT). MREPT is 
-a noninvasive technique that can retrieve the spatial distribution of electrical 
-properties (EPs) of scanned tissues from measured transmit radiofrequency (RF) 
-in magnetic resonance imaging (MRI) systems. The reconstruction of EP values in 
-MREPT is achieved by solving a partial differential equation derived from 
-Maxwell's equations that lacks a direct solution. Most conventional MREPT 
-methods suffer from artifacts caused by the invalidation of the assumption 
-applied for simplification of the problem and numerical errors caused by 
-numerical differentiation. Existing deep learning-based (DL-based) MREPT methods 
-comprise data-driven methods that need to collect massive datasets for training 
-or model-driven methods that are only validated in trivial cases. Hence we 
-proposed a model-driven method that learns mapping from a measured RF, its 
-spatial gradient and Laplacian to EPs using fully connected networks (FCNNs). 
-The spatial gradient of EP can be computed through the automatic differentiation 
-of FCNNs and the chain rule. FCNNs are optimized using the residual of the 
-central physical equation of convection-reaction MREPT as the loss function ( L) 
-. To alleviate the ill condition of the problem, we added multiconstraints, 
-including the similarity constraint between permittivity and conductivity and 
-the l1 norm of spatial gradients of permittivity and conductivity, to the L . We 
-demonstrate the proposed method with a three-dimensional realistic head model, a 
-digital phantom simulation, and a practical phantom experiment at a 9.4T animal 
-MRI system."
+W00001,Physics-informed neural networks for myocardial perfusion MRI quantification,"van Herten RLM, Chiribiri A, Breeuwer M, Veta M, Scannell CM.",2022,journal,Med Image Anal,,,10.1016/j.media.2022.102399,35299005.0,,,PubMed,"Tracer-kinetic models allow for the quantification of kinetic parameters such as blood flow from dynamic contrast-enhanced magnetic resonance (MR) images. Fitting the observed data with multi-compartment exchange models is desirable, as they are physiologically plausible and resolve directly for blood flow and microvascular function. However, the reliability of model fitting is limited by the low signal-to-noise ratio, temporal resolution, and acquisition length. This may result in inaccurate parameter estimates. This study introduces physics-informed neural networks (PINNs) as a means to perform myocardial perfusion MR quantification, which provides a versatile scheme for the inference of kinetic parameters. These neural networks can be trained to fit the observed perfusion MR data while respecting the underlying physical conservation laws described by a multi-compartment exchange model. Here, we provide a framework for the implementation of PINNs in myocardial perfusion MR. The approach is validated both in silico and in vivo. In the in silico study, an overall decrease in mean-squared error with the ground-truth parameters was observed compared to a standard non-linear least squares fitting approach. The in vivo study demonstrates that the method produces parameter values comparable to those previously found in literature, as well as providing parameter maps which match the clinical diagnosis of patients."
+W00003,Flow-Rate-Constrained Physics-Informed Neural Networks for Flow Field Error Correction in 4-D Flow Magnetic Resonance Imaging,"Kang J, Jung EC, Koo HJ, Yang DH, Ha H.",2025,journal,IEEE Trans Med Imaging,,,10.1109/tmi.2025.3587636,40638348.0,,,PubMed,"In this study, we present enhanced physics-informed neural networks (PINNs), which were designed to address flow field errors in four-dimensional flow magnetic resonance imaging (4D Flow MRI). Flow field errors, typically occurring in high-velocity regions, lead to inaccuracies in velocity fields and flow rate underestimation. We proposed incorporating flow rate constraints to ensure physical consistency across cross-sections. The proposed framework included optimization strategies to improve convergence, stability, and accuracy. Artificial viscosity modeling, projecting conflicting gradients (PCGrad), and Euclidean norm scaling were applied to balance loss functions during training. The performance was validated using 2D computational fluid dynamics (CFD) with synthetic error, in-vitro 4D flow MRI mimicking aortic valve, and in-vivo 4D flow MRI from patients with aortic regurgitation and aortic stenosis. This study demonstrated considerable improvements in correcting flow field errors, denoising, and super-resolution. Notably, the proposed PINNs provided accurate flow rate reconstruction in stenotic and high-velocity regions. This approach extends the applicability of 4D flow MRI by providing reliable hemodynamics in the post-processing stage."
+W00004,Magnetic Resonance Electrical Properties Tomography Based on Modified Physics- Informed Neural Network and Multiconstraints,"Ruan G, Wang Z, Liu C, Xia L, Wang H, Qi L, Chen W.",2024,journal,IEEE Trans Med Imaging,,,10.1109/tmi.2024.3391651,38640054.0,,,PubMed,"This paper presents a novel method based on leveraging physics-informed neural networks for magnetic resonance electrical property tomography (MREPT). MREPT is a noninvasive technique that can retrieve the spatial distribution of electrical properties (EPs) of scanned tissues from measured transmit radiofrequency (RF) in magnetic resonance imaging (MRI) systems. The reconstruction of EP values in MREPT is achieved by solving a partial differential equation derived from Maxwell's equations that lacks a direct solution. Most conventional MREPT methods suffer from artifacts caused by the invalidation of the assumption applied for simplification of the problem and numerical errors caused by numerical differentiation. Existing deep learning-based (DL-based) MREPT methods comprise data-driven methods that need to collect massive datasets for training or model-driven methods that are only validated in trivial cases. Hence we proposed a model-driven method that learns mapping from a measured RF, its spatial gradient and Laplacian to EPs using fully connected networks (FCNNs). The spatial gradient of EP can be computed through the automatic differentiation of FCNNs and the chain rule. FCNNs are optimized using the residual of the central physical equation of convection-reaction MREPT as the loss function ( L). To alleviate the ill condition of the problem, we added multiconstraints, including the similarity constraint between permittivity and conductivity and the l1 norm of spatial gradients of permittivity and conductivity, to the L . We demonstrate the proposed method with a three-dimensional realistic head model, a digital phantom simulation, and a practical phantom experiment at a 9.4T animal MRI system."
 W00005,Physics-Informed Neural Networks for Brain Hemodynamic Predictions Using Medical Imaging,"Sarabian M, Babaee H, Laksari K.",2022,journal,IEEE Trans Med Imaging,,,10.1109/tmi.2022.3161653,35320090.0,,,PubMed,"Determining brain hemodynamics plays a critical role in the diagnosis and 
 treatment of various cerebrovascular diseases. In this work, we put forth a 
 physics-informed deep learning framework that augments sparse clinical 
