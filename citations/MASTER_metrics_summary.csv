@@ -1,0 +1,9 @@
+metric,N,met_count,met_pct,partial_count,partial_pct,not_count,not_pct
+context_clarity,51,51,100.0,0,0.0,0,0.0
+physics_model_clarity,51,38,74.5,13,25.5,0,0.0
+data_transparency,51,28,54.9,23,45.1,0,0.0
+baseline_comparison,51,38,74.5,6,11.8,7,13.7
+quantitative_evaluation,51,31,60.8,6,11.8,14,27.5
+validation_beyond_training,51,47,92.2,4,7.8,0,0.0
+robustness_or_uncertainty,51,30,58.8,8,15.7,13,25.5
+reproducibility_signal,51,3,5.9,3,5.9,45,88.2

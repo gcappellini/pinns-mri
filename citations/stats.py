@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the merged CSV
-csv_path = 'PINN_MRI_master_merged.csv'
+csv_path = 'MASTER.csv'
 df = pd.read_csv(csv_path)
 
 print("=" * 80)
